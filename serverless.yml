@@ -1,0 +1,72 @@
+frameworkVersion: "=1.28.0"
+
+service: subscriptions-api
+
+plugins:
+  - serverless-webpack
+  - serverless-dynamodb-local
+  - serverless-offline #serverless-offline needs to be last in the list
+
+custom:
+  webpack:
+    webpackConfig: ./webpack.config.js
+    includeModules: true
+  serverless-offline:
+    babelOptions:
+      presets: ["env", "flow"]
+  dynamodb:
+    start:
+      port: 8000
+      inMemory: true
+      migrate: true
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+  stage: dev
+  region: us-east-1
+  memorySize: 512
+  versionFunctions: false
+
+functions:
+  subscribe:
+    handler: src/handlers/subscribe.handler
+    name: ${self:provider.stage}-subscribe
+    description: Subscribe user to a given publication
+    events:
+      - http:
+          method: post
+          path: /{userId}/subscriptions/{publicationId}
+  getSubscriptions:
+    handler: src/handlers/get.handler
+    name: ${self:provider.stage}-getSubscription
+    description: Fetch users subscription data
+    events:
+      - http:
+          method: get
+          path: /{userId}/subscriptions/{publicationId}
+
+package:
+  individually: true
+
+resources:
+  Resources:
+    TodosDynamoDbTable:
+      Type: 'AWS::DynamoDB::Table'
+      DeletionPolicy: Retain
+      Properties:
+        TableName: spreadshare-subscriptions-dev
+        AttributeDefinitions:
+          - AttributeName: id
+            AttributeType: S
+          - AttributeName: userId
+            AttributeType: S
+        KeySchema:
+          - AttributeName: id
+            KeyType: HASH
+          - AttributeName: userId
+            KeyType: RANGE
+        ProvisionedThroughput:
+          ReadCapacityUnits: 1
+          WriteCapacityUnits: 1
+        

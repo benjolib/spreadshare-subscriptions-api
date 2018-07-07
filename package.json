@@ -1,0 +1,70 @@
+{
+  "name": "subscriptions-api",
+  "version": "0.1.0",
+  "description": "REST api for managing user subscriptions for publications",
+  "main": "src/handlers/heir.js",
+  "author": "Shashank Tomar (shashank004@gmail.com)",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git+git@bitbucket.org:spreadshare/spreadshare-subscriptions.git"
+  },
+  "keywords": [
+    "serverless",
+    "nodejs",
+    "webpack",
+    "babel",
+    "aws-lambda"
+  ],
+  "scripts": {
+    "dev": "sls offline start",
+    "deploy": "sls deploy -s dev",
+    "invoke:local": "sls invoke local --function",
+    "lint": "eslint --cache --format=node_modules/eslint-formatter-pretty .",
+    "lint:fix": "npm run lint -- --fix",
+    "logs": "sls logs -s dev -t -f",
+    "flowtyped": "flow-typed install",
+    "test": "jest",
+    "test:coverage": "npm test -- --coverage",
+    "test:watch": "npm test -- --watch",
+    "test:all": "npm run lint && npm run typecheck && npm run test",
+    "typecheck": "flow"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^7.2.3",
+    "babel-jest": "^21.0.2",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-source-map-support": "^1.0.0",
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "eslint": "^4.6.1",
+    "eslint-config-airbnb-base": "^12.0.0",
+    "eslint-formatter-pretty": "^1.3.0",
+    "eslint-plugin-compat": "^1.0.4",
+    "eslint-plugin-flowtype": "^2.35.1",
+    "eslint-plugin-flowtype-errors": "^3.3.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jest": "^21.0.2",
+    "eslint-plugin-promise": "^3.5.0",
+    "flow-bin": "^0.75.0",
+    "flow-typed": "^2.5.1",
+    "jest": "^21.2.1",
+    "serverless-dynamodb-local": "^0.2.30",
+    "serverless-offline": "^3.20.3",
+    "serverless-webpack": "5.1.0",
+    "webpack": "4.2.0",
+    "webpack-node-externals": "^1.6.0"
+  },
+  "dependencies": {
+    "await-to-js": "^2.0.1",
+    "aws-sdk": "^2.269.1",
+    "babel-runtime": "^6.26.0",
+    "middy": "^0.15.7",
+    "ramda": "^0.25.0",
+    "source-map-support": "^0.4.18"
+  }
+}
