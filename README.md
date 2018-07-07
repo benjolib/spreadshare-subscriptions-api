@@ -14,7 +14,7 @@
 
 ## Tasks List
 * [x] setup aws lambda project with serverless and dynamodb
-* [x] create and post api
+* [x] create and get api
 * [ ] getAll subscriptions for a user
 * [ ] unit test 
 * [ ] functional test
