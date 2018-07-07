@@ -12,6 +12,12 @@
 ## Resources
 * [storing sensitive information in env variables](https://docs.aws.amazon.com/lambda/latest/dg/tutorial-env_console.html)
 
-## Pending Tasks
-* dynamoDb backups
+## Tasks List
+* [x] setup aws lambda project with serverless and dynamodb
+* [x] create and post api
+* [ ] getAll subscriptions for a user
+* [ ] unit test 
+* [ ] functional test
+* [ ] deployment scripts
+* [ ] ci-cd
 
