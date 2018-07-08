@@ -37,6 +37,7 @@ Following is the list of spradshare subscription api
 `POST /{userId}/subscriptions/{publicationId}`
 
 #### Request Body:
+
 Fields:
 * channel - `rss` or `email`
 * frequency - `monthly`, `weekly` or `daily`
