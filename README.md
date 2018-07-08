@@ -38,9 +38,9 @@ Following is the list of spradshare subscription api
 
 #### Request Body:
 Fields:
-* **channel**: `rss` or `email`
-* **frequency**: `monthly`, `weekly` or `daily`
-* **email**: required if channel type is `email`
+* *channel*: `rss` or `email`
+* *frequency*: `monthly`, `weekly` or `daily`
+* *email*: required if channel type is `email`
 
 Example:
 ```
