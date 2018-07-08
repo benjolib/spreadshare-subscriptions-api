@@ -4,7 +4,7 @@ export const errorRes = (code: number, msg: string) => ({
     errors: [
       {
         status: code,
-        message: msg
+        detail: msg
       }
     ]
   }
