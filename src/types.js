@@ -1,11 +1,29 @@
 // @flow
 
 export interface ControllerI {
-  subscribe(subscription: Subscription): Promise<boolean>;
+  subscribe(subscription: Subscription): Promise<Subscription>;
+
+  unsubscribe(
+    userId: string,
+    publicationId: string,
+    channel: Channel
+  ): Promise<void>;
+
   getSubscription(
     userId: string,
-    publicationId: string
+    publicationId: string,
+    channel: Channel
   ): Promise<?Subscription>;
+
+  getAllForUser(
+    userId: string,
+    channel: ?Channel
+  ): Promise<Array<Subscription>>;
+
+  getAllForPublication(
+    publicationId: string,
+    channel: ?Channel
+  ): Promise<Array<Subscription>>;
 }
 
 export interface DateTimeI {
@@ -20,19 +38,20 @@ export type Subscription = {
   +email: string,
   +publicationId: string,
   +frequency: Frequency,
-  +channel: Channel
+  +channel: Channel,
+  +createdAt?: number,
+  +updatedAt?: number
 };
 
-export type SubscriptionModel = Subscription & {
-  +id: string,
-  +createdAt: number,
-  +updatedAt: number
+export type SubscriptionDbModel = Subscription & {
+  +channelId: string
 };
 
 type HttpEvent = {
   pathParameters: {
     +userId: string,
-    +publicationId: string
+    +publicationId: string,
+    +channel: Channel
   },
   body: {
     +email: string,

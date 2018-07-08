@@ -37,14 +37,38 @@ functions:
       - http:
           method: post
           path: /{userId}/subscriptions/{publicationId}
-  getSubscriptions:
+  unsubscribe:
+    handler: src/handlers/unsubscribe.handler
+    name: ${self:provider.stage}-unsubscribe
+    description: Unsubscribe user from a given publication channel
+    events:
+      - http:
+          method: delete
+          path: /{userId}/subscriptions/{publicationId}/{channel}
+  getSubscription:
     handler: src/handlers/get.handler
     name: ${self:provider.stage}-getSubscription
-    description: Fetch users subscription data
+    description: Fetch a single subscription for user and publicationId given a channel
     events:
       - http:
           method: get
-          path: /{userId}/subscriptions/{publicationId}
+          path: /{userId}/subscriptions/{publicationId}/{channel}
+  getAllSubscriptionsForUser:
+    handler: src/handlers/getAllForUser.handler
+    name: ${self:provider.stage}-getAllSubscriptionsForUser
+    description: Fetch all user subscriptions
+    events:
+      - http:
+          method: get
+          path: /{userId}/subscriptions
+  getAllSubscriptionsForPublication:
+    handler: src/handlers/getAllForPublication.handler
+    name: ${self:provider.stage}-getAllSubscriptionsForPublication
+    description: Fetch all subscriptions for a publication
+    events:
+      - http:
+          method: get
+          path: /subscriptions/{publicationId}
 
 package:
   individually: true
@@ -57,15 +81,42 @@ resources:
       Properties:
         TableName: spreadshare-subscriptions-dev
         AttributeDefinitions:
-          - AttributeName: id
-            AttributeType: S
           - AttributeName: userId
+            AttributeType: S
+          - AttributeName: channelId
+            AttributeType: S
+          - AttributeName: publicationId
+            AttributeType: S
+          - AttributeName: channel
             AttributeType: S
         KeySchema:
-          - AttributeName: id
-            KeyType: HASH
           - AttributeName: userId
+            KeyType: HASH
+          - AttributeName: channelId
             KeyType: RANGE
+        GlobalSecondaryIndexes: 
+          - IndexName: publication-channel-index
+            KeySchema:
+              - AttributeName: publicationId
+                KeyType: HASH
+              - AttributeName: channel
+                KeyType: RANGE
+            Projection: 
+              ProjectionType: ALL
+            ProvisionedThroughput:
+              ReadCapacityUnits: 1
+              WriteCapacityUnits: 1
+          - IndexName: user-channel-index
+            KeySchema:
+              - AttributeName: userId
+                KeyType: HASH
+              - AttributeName: channel
+                KeyType: RANGE
+            Projection: 
+              ProjectionType: ALL
+            ProvisionedThroughput:
+              ReadCapacityUnits: 1
+              WriteCapacityUnits: 1
         ProvisionedThroughput:
           ReadCapacityUnits: 1
           WriteCapacityUnits: 1

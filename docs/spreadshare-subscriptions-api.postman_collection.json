@@ -1,0 +1,168 @@
+{
+	"info": {
+		"_postman_id": "56041fe8-10f8-4163-890b-aad561cb60f7",
+		"name": "spreadshare-subscriptions-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Subscribe",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"channel\": \"email\",\n\t\"frequency\": \"monthly\",\n\t\"email\": \"some@email.com\"\n}"
+				},
+				"url": {
+					"raw": "{{spreadshare-subscriptions}}/125/subscriptions/abc",
+					"host": [
+						"{{spreadshare-subscriptions}}"
+					],
+					"path": [
+						"125",
+						"subscriptions",
+						"abc"
+					]
+				},
+				"description": "An idempotent call to subscribe user to a publication"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Subscription",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"channel\": \"rss\",\n\t\"frequency\": \"monthly\",\n\t\"email\": \"some@email.com\"\n}"
+				},
+				"url": {
+					"raw": "{{spreadshare-subscriptions}}/125/subscriptions/abc/email",
+					"host": [
+						"{{spreadshare-subscriptions}}"
+					],
+					"path": [
+						"125",
+						"subscriptions",
+						"abc",
+						"email"
+					]
+				},
+				"description": "Get subscription for a given publication id"
+			},
+			"response": []
+		},
+		{
+			"name": "GetAll For User",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"channel\": \"rss\",\n\t\"frequency\": \"monthly\",\n\t\"email\": \"some@email.com\"\n}"
+				},
+				"url": {
+					"raw": "{{spreadshare-subscriptions}}/125/subscriptions?",
+					"host": [
+						"{{spreadshare-subscriptions}}"
+					],
+					"path": [
+						"125",
+						"subscriptions"
+					],
+					"query": [
+						{
+							"key": "channel",
+							"value": "email",
+							"disabled": true
+						}
+					]
+				},
+				"description": "Get all subscriptions for a given user"
+			},
+			"response": []
+		},
+		{
+			"name": "GetAll For Publication",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"channel\": \"rss\",\n\t\"frequency\": \"monthly\",\n\t\"email\": \"some@email.com\"\n}"
+				},
+				"url": {
+					"raw": "{{spreadshare-subscriptions}}/subscriptions/abc?",
+					"host": [
+						"{{spreadshare-subscriptions}}"
+					],
+					"path": [
+						"subscriptions",
+						"abc"
+					],
+					"query": [
+						{
+							"key": "channel",
+							"value": "email",
+							"disabled": true
+						}
+					]
+				},
+				"description": "Get all subscriptions for a given publication"
+			},
+			"response": []
+		},
+		{
+			"name": "Unsubscribe",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"channel\": \"rss\",\n\t\"frequency\": \"monthly\",\n\t\"email\": \"some@email.com\"\n}"
+				},
+				"url": {
+					"raw": "{{spreadshare-subscriptions}}/125/subscriptions/abc/email",
+					"host": [
+						"{{spreadshare-subscriptions}}"
+					],
+					"path": [
+						"125",
+						"subscriptions",
+						"abc",
+						"email"
+					]
+				},
+				"description": "Delete a user subscription for the specified publication channel"
+			},
+			"response": []
+		}
+	]
+}

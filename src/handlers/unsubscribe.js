@@ -7,8 +7,8 @@ import { errorRes } from '../utils/http';
 
 export const handler: Handler = async event => {
   const { userId, publicationId, channel } = event.pathParameters;
-  const [err, result] = await to(
-    controller.getSubscription(userId, publicationId, channel)
+  const [err] = await to(
+    controller.unsubscribe(userId, publicationId, channel)
   );
 
   if (err != null) {
@@ -16,5 +16,5 @@ export const handler: Handler = async event => {
     return errorRes(500, err.message);
   }
 
-  return result ? { statusCode: 200, body: result } : { statusCode: 404 };
+  return { statusCode: 200 };
 };

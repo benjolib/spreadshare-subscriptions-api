@@ -8,25 +8,17 @@ import type { Handler } from '../types';
 import httpJsonErrorHandler from '../middlewares/httpJsonErrorHandler';
 import { subscriptionSchema } from '../schemas';
 import { controller } from './factory';
+import { errorRes } from '../utils/http';
 
 const subscribe: Handler = async event => {
   const subscription = R.merge(event.pathParameters, event.body);
   const [err, item] = await to(controller.subscribe(subscription));
   if (err != null) {
     console.log(err);
-    return { statusCode: 500, body: serverError(err.message) };
+    return errorRes(500, err.message);
   }
   return { statusCode: 200, body: item };
 };
-
-const serverError = (msg: string) => ({
-  errors: [
-    {
-      status: 500,
-      message: msg
-    }
-  ]
-});
 
 export const handler = middy(subscribe)
   .use(jsonBodyParser())
