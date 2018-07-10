@@ -23,7 +23,9 @@ export default class SubscriptionTable {
   }
 
   async saveOrUpdate(doc: SubscriptionDbModel): Promise<SubscriptionDbModel> {
-    const [err, oldDoc] = await to(this.get(doc.userId, doc.channelId));
+    const [err, oldDoc]: [Error, SubscriptionDbModel] = await to(
+      this.get(doc.userId, doc.channelId)
+    );
 
     if (err != null) {
       return Promise.reject(err);
@@ -61,13 +63,7 @@ export default class SubscriptionTable {
       }
     };
 
-    return this.db
-      .delete(params)
-      .promise()
-      .then(res => {
-        console.log(res);
-        return res;
-      });
+    return this.db.delete(params).promise();
   }
 
   getAllForUser(
@@ -125,8 +121,6 @@ export default class SubscriptionTable {
       KeyConditionExpression: condition,
       ExpressionAttributeValues: expression
     };
-
-    console.log(params);
 
     return this.db
       .query(params)

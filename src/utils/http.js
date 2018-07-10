@@ -1,4 +1,6 @@
-export const errorRes = (code: number, msg: string) => ({
+import type { ErrorResponse } from '../types';
+
+export const errorRes: ErrorResponse = (code: number, msg: string) => ({
   statusCode: code,
   body: {
     errors: [

@@ -47,7 +47,15 @@ export type SubscriptionDbModel = Subscription & {
   +channelId: string
 };
 
-type HttpEvent = {
+type Event = {
+  pathParameters: {
+    +userId: string,
+    +publicationId: string,
+    +channel: Channel
+  }
+};
+
+type PostEvent = {
   pathParameters: {
     +userId: string,
     +publicationId: string,
@@ -65,4 +73,15 @@ type HttpResponse = {
   +body?: any
 };
 
-export type Handler = HttpEvent => Promise<HttpResponse>;
+export type ErrorResponse = {
+  +statusCode: number,
+  +body: {
+    errors: {
+      status: number,
+      detail: string
+    }
+  }
+};
+
+export type Handler = Event => Promise<HttpResponse>;
+export type PostHandler = PostEvent => Promise<HttpResponse>;

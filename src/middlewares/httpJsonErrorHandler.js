@@ -2,9 +2,9 @@ import { HttpError } from 'http-errors';
 
 const mw = () => ({
   onError: (handler, next) => {
-    console.log('>>>>>>>>>onError >>>>>>>>>>');
     if (handler.error instanceof HttpError) {
       // as per JSON spec http://jsonapi.org/examples/#error-objects-basics
+      // eslint-disable-next-line
       handler.response = {
         body: JSON.stringify({
           errors: [

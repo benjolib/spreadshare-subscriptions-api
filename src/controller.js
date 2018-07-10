@@ -16,6 +16,7 @@ export default class SubController implements ControllerI {
       channelId: `${subscription.publicationId}:${subscription.channel}`,
       ...subscription
     };
+    // $FlowIgnore
     return this.table.saveOrUpdate(model).then(R.dissoc('channelId'));
   }
 
@@ -34,26 +35,35 @@ export default class SubController implements ControllerI {
     channel: Channel
   ): Promise<?Subscription> {
     const channelId = `${publicationId}:${channel}`;
-    return this.table
-      .get(userId, channelId)
-      .then(res => (res ? R.dissoc('channelId', res) : undefined));
+    return (
+      this.table
+        .get(userId, channelId)
+        // $FlowIgnore
+        .then(res => (res ? R.dissoc('channelId', res) : undefined))
+    );
   }
 
   getAllForUser(
     userId: string,
     channel: ?Channel
   ): Promise<Array<Subscription>> {
-    return this.table
-      .getAllForUser(userId, channel)
-      .then(R.map(R.dissoc('channelId')));
+    return (
+      this.table
+        .getAllForUser(userId, channel)
+        // $FlowIgnore
+        .then(R.map(R.dissoc('channelId')))
+    );
   }
 
   getAllForPublication(
     publicationId: string,
     channel: ?Channel
   ): Promise<Array<Subscription>> {
-    return this.table
-      .getAllForPublication(publicationId, channel)
-      .then(R.map(R.dissoc('channelId')));
+    return (
+      this.table
+        .getAllForPublication(publicationId, channel)
+        // $FlowIgnore
+        .then(R.map(R.dissoc('channelId')))
+    );
   }
 }

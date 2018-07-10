@@ -7,7 +7,7 @@ import { errorRes } from '../utils/http';
 
 export const handler: Handler = async event => {
   const { userId, publicationId, channel } = event.pathParameters;
-  const [err] = await to(
+  const [err]: [Error] = await to(
     controller.unsubscribe(userId, publicationId, channel)
   );
 

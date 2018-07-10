@@ -8,6 +8,7 @@
 > any change to the package.json file break local dynamo db installation as per the bug mentioned [here](https://github.com/99xt/serverless-dynamodb-local/issues/127). The workaround is running `sls dynamodb remove && sls dynamodb install`
 
 ## Commands
+See the scripts section in package.json
 
 ## Deployment
 
@@ -89,6 +90,9 @@ Example:
 ### Get all user subscriptions
 `GET /{userId}/subscriptions`
 
+### Query params 
+`channel: email | rss`
+
 #### Response Body:
 ```
 [
@@ -129,6 +133,9 @@ Example:
 
 ### Get all subscriptions for a publication
 `GET /subscriptions/{publicationId}`
+
+### Query params 
+`channel: email | rss`
 
 #### Response Body:
 ```

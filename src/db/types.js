@@ -4,7 +4,7 @@ type DbParams = {
 };
 
 type DbDoc<T> = {
-  Item: ?T
+  Item?: T
 };
 
 type DbDocPromise<T> = {
