@@ -2,7 +2,6 @@
   "name": "spreadshare-subscriptions-api",
   "version": "0.1.0",
   "description": "REST api for managing user subscriptions for publications",
-  "main": "src/handlers/heir.js",
   "author": "Shashank Tomar (shashank004@gmail.com)",
   "license": "UNLICENSED",
   "repository": {
