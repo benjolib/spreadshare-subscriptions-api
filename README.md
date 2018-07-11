@@ -11,10 +11,14 @@
 See the scripts section in package.json
 
 ## Deployment
+* for `dynamodb table` deployment, see `spreadshare-devops` repo
+* deploy using `yarn deploy:stage` for stage deployment
+* deploy using `yarn deploy:prod` for prod deployment 
+* note down the api key returned by deployments. The api are private and the key is needed to be passed in `x-api-key` header for authentication.
+* Please also refer serverless docs for detailed deployment config params.
 
 ## Resources
 * [serverless documentation](https://serverless.com/)
-* [storing sensitive information in env variables](https://docs.aws.amazon.com/lambda/latest/dg/tutorial-env_console.html)
 
 ## Tasks List
 * [x] setup aws lambda project with serverless and dynamodb
@@ -22,7 +26,7 @@ See the scripts section in package.json
 * [x] batch get apis
 * [ ] unit test 
 * [ ] functional test
-* [ ] deployment scripts
+* [x] deployment scripts
 * [ ] ci-cd
 
 ## Limitations
