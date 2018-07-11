@@ -12,7 +12,7 @@ export const handler: Handler = async event => {
   );
 
   if (err != null) {
-    console.log(err);
+    console.error(err);
     return errorRes(500, err.message);
   }
 

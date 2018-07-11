@@ -415,9 +415,9 @@ await-to-js@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/await-to-js/-/await-to-js-2.0.1.tgz#fcb8a2178c763e2970aef1da9daf5c493e3653e0"
 
-aws-sdk@^2.269.1:
-  version "2.269.1"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.269.1.tgz#c1a6d1cc6994db2e72d0e73cec9a27470ba53fe0"
+aws-sdk@^2.272.1:
+  version "2.272.1"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.272.1.tgz#d81e6c6f3e82d55cf98250650de4c079c89b76b7"
   dependencies:
     buffer "4.9.1"
     events "1.1.1"

@@ -14,15 +14,15 @@ const subscribe: PostHandler = async event => {
     ...event.pathParameters,
     ...event.body
   };
-  const [err, item]: [Error, Subscription] = await to(
+  const [err, result]: [Error, Subscription] = await to(
     controller.subscribe(subscription)
   );
 
   if (err != null) {
-    console.log(err);
+    console.error(err);
     return errorRes(500, err.message);
   }
-  return { statusCode: 200, body: item };
+  return { statusCode: 200, body: JSON.stringify(result) };
 };
 
 export const handler = middy(subscribe)

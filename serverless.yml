@@ -22,11 +22,29 @@ custom:
 
 provider:
   name: aws
+  profile: ${opt:profile, 'spreadshare'}
   runtime: nodejs8.10
-  stage: dev
-  region: us-east-1
+  stage: ${opt:stage, 'dev'}
+  region: ${opt:region, 'eu-central-1'}
+  apiKeys:
+    - ${self:provider.stage}-subscriptions-apikey
   memorySize: 512
   versionFunctions: false
+  environment: ${file(env.yml):${self:provider.stage}}
+  iamRoleStatements:
+    - Effect: Allow
+      Action:
+        - dynamodb:Query
+        - dynamodb:Scan
+        - dynamodb:GetItem
+        - dynamodb:PutItem
+        - dynamodb:UpdateItem
+        - dynamodb:DeleteItem
+      Resource: "arn:aws:dynamodb:${self:provider.region}:*:table/${self:provider.environment.TABLE_NAME}"
+    - Effect: Allow
+      Action:
+        - dynamodb:Query
+      Resource: "arn:aws:dynamodb:${self:provider.region}:*:table/${self:provider.environment.TABLE_NAME}/index/*"
 
 functions:
   subscribe:
@@ -37,6 +55,8 @@ functions:
       - http:
           method: post
           path: /{userId}/subscriptions/{publicationId}
+          cors: true
+          private: true
   unsubscribe:
     handler: src/handlers/unsubscribe.handler
     name: ${self:provider.stage}-unsubscribe
@@ -45,6 +65,8 @@ functions:
       - http:
           method: delete
           path: /{userId}/subscriptions/{publicationId}/{channel}
+          cors: true
+          private: true
   getSubscription:
     handler: src/handlers/get.handler
     name: ${self:provider.stage}-getSubscription
@@ -53,6 +75,8 @@ functions:
       - http:
           method: get
           path: /{userId}/subscriptions/{publicationId}/{channel}
+          cors: true
+          private: true
   getAllSubscriptionsForUser:
     handler: src/handlers/getAllForUser.handler
     name: ${self:provider.stage}-getAllSubscriptionsForUser
@@ -61,6 +85,8 @@ functions:
       - http:
           method: get
           path: /{userId}/subscriptions
+          cors: true
+          private: true
   getAllSubscriptionsForPublication:
     handler: src/handlers/getAllForPublication.handler
     name: ${self:provider.stage}-getAllSubscriptionsForPublication
@@ -69,17 +95,25 @@ functions:
       - http:
           method: get
           path: /subscriptions/{publicationId}
+          cors: true
+          private: true
 
 package:
   individually: true
 
 resources:
+  Conditions:
+    CreateTable:
+      Fn::Equals:
+        - ${opt:stage}
+        - dev
   Resources:
-    TodosDynamoDbTable:
+    SubscriptionsDynamoDbTable:
       Type: 'AWS::DynamoDB::Table'
+      Condition: CreateTable
       DeletionPolicy: Retain
       Properties:
-        TableName: spreadshare-subscriptions-dev
+        TableName: ${self:provider.environment.TABLE_NAME}
         AttributeDefinitions:
           - AttributeName: userId
             AttributeType: S

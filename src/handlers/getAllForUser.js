@@ -13,10 +13,10 @@ export const handler: Handler = async event => {
   );
 
   if (err != null) {
-    console.log(err);
+    console.error(err);
     return errorRes(500, err.message);
   }
   return result.length !== 0
-    ? { statusCode: 200, body: result }
+    ? { statusCode: 200, body: JSON.stringify(result) }
     : { statusCode: 404 };
 };

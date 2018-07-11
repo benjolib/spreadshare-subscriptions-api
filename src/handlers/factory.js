@@ -14,12 +14,9 @@ if (process.env.IS_OFFLINE) {
     endpoint: 'http://localhost:8000'
   };
 }
+const tableName = process.env.TABLE_NAME || 'spreadshare-subscriptions-dev';
 
 const dynamoClient = new AWS.DynamoDB.DocumentClient(options);
-const db = new SubscriptionTable(
-  'spreadshare-subscriptions-dev',
-  dynamoClient,
-  dateTime
-);
+const db = new SubscriptionTable(tableName, dynamoClient, dateTime);
 
 export const controller = new Controller(db);
