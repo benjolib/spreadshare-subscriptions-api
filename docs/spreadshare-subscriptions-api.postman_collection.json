@@ -13,6 +13,10 @@
 					{
 						"key": "Content-Type",
 						"value": "application/json"
+					},
+					{
+						"key": "x-api-key",
+						"value": "CDB2oWGUSR4V1dMeFTzSg3FQzpuhIGdM2XGRRzLe"
 					}
 				],
 				"body": {
@@ -42,6 +46,10 @@
 					{
 						"key": "Content-Type",
 						"value": "application/json"
+					},
+					{
+						"key": "x-api-key",
+						"value": "CDB2oWGUSR4V1dMeFTzSg3FQzpuhIGdM2XGRRzLe"
 					}
 				],
 				"body": {
@@ -72,6 +80,10 @@
 					{
 						"key": "Content-Type",
 						"value": "application/json"
+					},
+					{
+						"key": "x-api-key",
+						"value": "CDB2oWGUSR4V1dMeFTzSg3FQzpuhIGdM2XGRRzLe"
 					}
 				],
 				"body": {
@@ -79,7 +91,7 @@
 					"raw": "{\n\t\"channel\": \"rss\",\n\t\"frequency\": \"monthly\",\n\t\"email\": \"some@email.com\"\n}"
 				},
 				"url": {
-					"raw": "{{spreadshare-subscriptions}}/125/subscriptions?",
+					"raw": "{{spreadshare-subscriptions}}/125/subscriptions?channel=email",
 					"host": [
 						"{{spreadshare-subscriptions}}"
 					],
@@ -90,8 +102,7 @@
 					"query": [
 						{
 							"key": "channel",
-							"value": "email",
-							"disabled": true
+							"value": "email"
 						}
 					]
 				},
@@ -107,6 +118,10 @@
 					{
 						"key": "Content-Type",
 						"value": "application/json"
+					},
+					{
+						"key": "x-api-key",
+						"value": "CDB2oWGUSR4V1dMeFTzSg3FQzpuhIGdM2XGRRzLe"
 					}
 				],
 				"body": {
@@ -114,7 +129,7 @@
 					"raw": "{\n  \"channel\": \"rss\",\n  \"frequency\": \"monthly\",\n  \"email\": \"some@email.com\"\n}"
 				},
 				"url": {
-					"raw": "{{spreadshare-subscriptions}}/subscriptions/abc?",
+					"raw": "{{spreadshare-subscriptions}}/subscriptions/abc?channel=email",
 					"host": [
 						"{{spreadshare-subscriptions}}"
 					],
@@ -125,8 +140,7 @@
 					"query": [
 						{
 							"key": "channel",
-							"value": "email",
-							"disabled": true
+							"value": "email"
 						}
 					]
 				},
@@ -142,6 +156,10 @@
 					{
 						"key": "Content-Type",
 						"value": "application/json"
+					},
+					{
+						"key": "x-api-key",
+						"value": "CDB2oWGUSR4V1dMeFTzSg3FQzpuhIGdM2XGRRzLe"
 					}
 				],
 				"body": {
