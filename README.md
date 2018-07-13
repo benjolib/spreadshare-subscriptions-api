@@ -1,4 +1,5 @@
 # Subscriptions
+Subscriptions api for spreadshare
 
 ## Dev Setup
 * install `serverless`
