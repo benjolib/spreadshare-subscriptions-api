@@ -1,0 +1,2162 @@
+[
+  {
+     "userId": "user-4",
+     "email": "Mooney@email.com",
+     "publicationId": "pub-9",
+     "frequency": "monthly",
+     "channel": "rss",
+     "channelId": "pub-9:rss",
+     "createdAt": 1500003610,
+     "updatedAt": 1394366133
+  },
+  {
+     "userId": "user-16",
+     "email": "Griffith@email.com",
+     "publicationId": "pub-4",
+     "frequency": "monthly",
+     "channel": "email",
+     "channelId": "pub-4:email",
+     "createdAt": 1517273221,
+     "updatedAt": 1417719025
+  },
+  {
+     "userId": "user-3",
+     "email": "Jolene@email.com",
+     "publicationId": "pub-8",
+     "frequency": "daily",
+     "channel": "rss",
+     "channelId": "pub-8:rss",
+     "createdAt": 1486342269,
+     "updatedAt": 1428206476
+  },
+  {
+     "userId": "user-7",
+     "email": "Perez@email.com",
+     "publicationId": "pub-8",
+     "frequency": "monthly",
+     "channel": "rss",
+     "channelId": "pub-8:rss",
+     "createdAt": 1461853959,
+     "updatedAt": 1397102794
+  },
+  {
+     "userId": "user-18",
+     "email": "Aileen@email.com",
+     "publicationId": "pub-1",
+     "frequency": "weekly",
+     "channel": "email",
+     "channelId": "pub-1:email",
+     "createdAt": 1444661203,
+     "updatedAt": 1465326518
+  },
+  {
+     "userId": "user-9",
+     "email": "Myrna@email.com",
+     "publicationId": "pub-3",
+     "frequency": "monthly",
+     "channel": "rss",
+     "channelId": "pub-3:rss",
+     "createdAt": 1403130056,
+     "updatedAt": 1505773174
+  },
+  {
+     "userId": "user-5",
+     "email": "Alfreda@email.com",
+     "publicationId": "pub-6",
+     "frequency": "monthly",
+     "channel": "email",
+     "channelId": "pub-6:email",
+     "createdAt": 1389974626,
+     "updatedAt": 1518860914
+  },
+  {
+     "userId": "user-19",
+     "email": "Douglas@email.com",
+     "publicationId": "pub-7",
+     "frequency": "weekly",
+     "channel": "email",
+     "channelId": "pub-7:email",
+     "createdAt": 1498201113,
+     "updatedAt": 1490858157
+  },
+  {
+     "userId": "user-11",
+     "email": "Guy@email.com",
+     "publicationId": "pub-8",
+     "frequency": "daily",
+     "channel": "rss",
+     "channelId": "pub-8:rss",
+     "createdAt": 1500845173,
+     "updatedAt": 1479075852
+  },
+  {
+     "userId": "user-8",
+     "email": "Danielle@email.com",
+     "publicationId": "pub-9",
+     "frequency": "weekly",
+     "channel": "rss",
+     "channelId": "pub-9:rss",
+     "createdAt": 1500285208,
+     "updatedAt": 1439640958
+  },
+  {
+     "userId": "user-14",
+     "email": "Jordan@email.com",
+     "publicationId": "pub-5",
+     "frequency": "daily",
+     "channel": "rss",
+     "channelId": "pub-5:rss",
+     "createdAt": 1457126386,
+     "updatedAt": 1522440906
+  },
+  {
+     "userId": "user-6",
+     "email": "Sheppard@email.com",
+     "publicationId": "pub-3",
+     "frequency": "daily",
+     "channel": "rss",
+     "channelId": "pub-3:rss",
+     "createdAt": 1467797182,
+     "updatedAt": 1417679023
+  },
+  {
+     "userId": "user-10",
+     "email": "Carmela@email.com",
+     "publicationId": "pub-9",
+     "frequency": "daily",
+     "channel": "rss",
+     "channelId": "pub-9:rss",
+     "createdAt": 1523780508,
+     "updatedAt": 1458257399
+  },
+  {
+     "userId": "user-17",
+     "email": "Francisca@email.com",
+     "publicationId": "pub-9",
+     "frequency": "monthly",
+     "channel": "email",
+     "channelId": "pub-9:email",
+     "createdAt": 1519580116,
+     "updatedAt": 1444492962
+  },
+  {
+     "userId": "user-10",
+     "email": "Mcdaniel@email.com",
+     "publicationId": "pub-7",
+     "frequency": "monthly",
+     "channel": "email",
+     "channelId": "pub-7:email",
+     "createdAt": 1485264322,
+     "updatedAt": 1527730920
+  },
+  {
+     "userId": "user-20",
+     "email": "Jamie@email.com",
+     "publicationId": "pub-10",
+     "frequency": "weekly",
+     "channel": "email",
+     "channelId": "pub-10:email",
+     "createdAt": 1444860775,
+     "updatedAt": 1501691668
+  },
+  {
+     "userId": "user-3",
+     "email": "Pearlie@email.com",
+     "publicationId": "pub-3",
+     "frequency": "weekly",
+     "channel": "email",
+     "channelId": "pub-3:email",
+     "createdAt": 1445236488,
+     "updatedAt": 1482117493
+  },
+  {
+     "userId": "user-11",
+     "email": "Daugherty@email.com",
+     "publicationId": "pub-4",
+     "frequency": "weekly",
+     "channel": "rss",
+     "channelId": "pub-4:rss",
+     "createdAt": 1407272872,
+     "updatedAt": 1514693553
+  },
+  {
+     "userId": "user-18",
+     "email": "Dona@email.com",
+     "publicationId": "pub-2",
+     "frequency": "daily",
+     "channel": "rss",
+     "channelId": "pub-2:rss",
+     "createdAt": 1506697018,
+     "updatedAt": 1519843299
+  },
+  {
+     "userId": "user-19",
+     "email": "Buckner@email.com",
+     "publicationId": "pub-6",
+     "frequency": "daily",
+     "channel": "email",
+     "channelId": "pub-6:email",
+     "createdAt": 1479073024,
+     "updatedAt": 1396738672
+  },
+  {
+     "userId": "user-1",
+     "email": "Valerie@email.com",
+     "publicationId": "pub-8",
+     "frequency": "monthly",
+     "channel": "rss",
+     "channelId": "pub-8:rss",
+     "createdAt": 1494981796,
+     "updatedAt": 1451732887
+  },
+  {
+     "userId": "user-6",
+     "email": "Jennings@email.com",
+     "publicationId": "pub-8",
+     "frequency": "daily",
+     "channel": "rss",
+     "channelId": "pub-8:rss",
+     "createdAt": 1494328685,
+     "updatedAt": 1497736187
+  },
+  {
+     "userId": "user-9",
+     "email": "Lila@email.com",
+     "publicationId": "pub-10",
+     "frequency": "weekly",
+     "channel": "rss",
+     "channelId": "pub-10:rss",
+     "createdAt": 1433605226,
+     "updatedAt": 1418926033
+  },
+  {
+     "userId": "user-7",
+     "email": "Yvonne@email.com",
+     "publicationId": "pub-10",
+     "frequency": "monthly",
+     "channel": "rss",
+     "channelId": "pub-10:rss",
+     "createdAt": 1423299972,
+     "updatedAt": 1464625235
+  },
+  {
+     "userId": "user-5",
+     "email": "Cathryn@email.com",
+     "publicationId": "pub-3",
+     "frequency": "monthly",
+     "channel": "email",
+     "channelId": "pub-3:email",
+     "createdAt": 1406687125,
+     "updatedAt": 1459158652
+  },
+  {
+     "userId": "user-3",
+     "email": "Fowler@email.com",
+     "publicationId": "pub-9",
+     "frequency": "monthly",
+     "channel": "email",
+     "channelId": "pub-9:email",
+     "createdAt": 1460216949,
+     "updatedAt": 1492641150
+  },
+  {
+     "userId": "user-4",
+     "email": "Katherine@email.com",
+     "publicationId": "pub-10",
+     "frequency": "daily",
+     "channel": "rss",
+     "channelId": "pub-10:rss",
+     "createdAt": 1483561176,
+     "updatedAt": 1507861901
+  },
+  {
+     "userId": "user-18",
+     "email": "Bernadine@email.com",
+     "publicationId": "pub-10",
+     "frequency": "monthly",
+     "channel": "email",
+     "channelId": "pub-10:email",
+     "createdAt": 1416427960,
+     "updatedAt": 1529306323
+  },
+  {
+     "userId": "user-1",
+     "email": "Arnold@email.com",
+     "publicationId": "pub-6",
+     "frequency": "weekly",
+     "channel": "email",
+     "channelId": "pub-6:email",
+     "createdAt": 1413099229,
+     "updatedAt": 1518999051
+  },
+  {
+     "userId": "user-4",
+     "email": "Katrina@email.com",
+     "publicationId": "pub-2",
+     "frequency": "monthly",
+     "channel": "email",
+     "channelId": "pub-2:email",
+     "createdAt": 1511098647,
+     "updatedAt": 1530378300
+  },
+  {
+     "userId": "user-2",
+     "email": "Claudine@email.com",
+     "publicationId": "pub-5",
+     "frequency": "weekly",
+     "channel": "rss",
+     "channelId": "pub-5:rss",
+     "createdAt": 1424811162,
+     "updatedAt": 1491932522
+  },
+  {
+     "userId": "user-5",
+     "email": "Ramos@email.com",
+     "publicationId": "pub-7",
+     "frequency": "weekly",
+     "channel": "email",
+     "channelId": "pub-7:email",
+     "createdAt": 1389399064,
+     "updatedAt": 1474470548
+  },
+  {
+     "userId": "user-13",
+     "email": "Alice@email.com",
+     "publicationId": "pub-6",
+     "frequency": "monthly",
+     "channel": "rss",
+     "channelId": "pub-6:rss",
+     "createdAt": 1508371725,
+     "updatedAt": 1445679465
+  },
+  {
+     "userId": "user-1",
+     "email": "Craft@email.com",
+     "publicationId": "pub-9",
+     "frequency": "weekly",
+     "channel": "rss",
+     "channelId": "pub-9:rss",
+     "createdAt": 1394513441,
+     "updatedAt": 1523671374
+  },
+  {
+     "userId": "user-11",
+     "email": "Beverley@email.com",
+     "publicationId": "pub-7",
+     "frequency": "weekly",
+     "channel": "rss",
+     "channelId": "pub-7:rss",
+     "createdAt": 1495984645,
+     "updatedAt": 1529724816
+  },
+  {
+     "userId": "user-5",
+     "email": "Hill@email.com",
+     "publicationId": "pub-4",
+     "frequency": "weekly",
+     "channel": "rss",
+     "channelId": "pub-4:rss",
+     "createdAt": 1515033862,
+     "updatedAt": 1477165385
+  },
+  {
+     "userId": "user-1",
+     "email": "Bridges@email.com",
+     "publicationId": "pub-6",
+     "frequency": "daily",
+     "channel": "rss",
+     "channelId": "pub-6:rss",
+     "createdAt": 1496206935,
+     "updatedAt": 1479142092
+  },
+  {
+     "userId": "user-5",
+     "email": "Poole@email.com",
+     "publicationId": "pub-4",
+     "frequency": "monthly",
+     "channel": "email",
+     "channelId": "pub-4:email",
+     "createdAt": 1444048044,
+     "updatedAt": 1488478366
+  },
+  {
+     "userId": "user-9",
+     "email": "Marks@email.com",
+     "publicationId": "pub-6",
+     "frequency": "daily",
+     "channel": "email",
+     "channelId": "pub-6:email",
+     "createdAt": 1424877735,
+     "updatedAt": 1527931047
+  },
+  {
+     "userId": "user-13",
+     "email": "Elva@email.com",
+     "publicationId": "pub-1",
+     "frequency": "daily",
+     "channel": "rss",
+     "channelId": "pub-1:rss",
+     "createdAt": 1409501865,
+     "updatedAt": 1447995126
+  },
+  {
+     "userId": "user-2",
+     "email": "Hogan@email.com",
+     "publicationId": "pub-10",
+     "frequency": "daily",
+     "channel": "email",
+     "channelId": "pub-10:email",
+     "createdAt": 1473815910,
+     "updatedAt": 1417080856
+  },
+  {
+     "userId": "user-2",
+     "email": "Dyer@email.com",
+     "publicationId": "pub-8",
+     "frequency": "weekly",
+     "channel": "email",
+     "channelId": "pub-8:email",
+     "createdAt": 1483958443,
+     "updatedAt": 1506943074
+  },
+  {
+     "userId": "user-8",
+     "email": "Shaffer@email.com",
+     "publicationId": "pub-7",
+     "frequency": "daily",
+     "channel": "rss",
+     "channelId": "pub-7:rss",
+     "createdAt": 1408225081,
+     "updatedAt": 1506059815
+  },
+  {
+     "userId": "user-12",
+     "email": "Carrie@email.com",
+     "publicationId": "pub-4",
+     "frequency": "weekly",
+     "channel": "email",
+     "channelId": "pub-4:email",
+     "createdAt": 1492169510,
+     "updatedAt": 1403315714
+  },
+  {
+     "userId": "user-7",
+     "email": "Maggie@email.com",
+     "publicationId": "pub-1",
+     "frequency": "daily",
+     "channel": "rss",
+     "channelId": "pub-1:rss",
+     "createdAt": 1423769948,
+     "updatedAt": 1478122753
+  },
+  {
+     "userId": "user-10",
+     "email": "Wilda@email.com",
+     "publicationId": "pub-6",
+     "frequency": "daily",
+     "channel": "email",
+     "channelId": "pub-6:email",
+     "createdAt": 1460791356,
+     "updatedAt": 1478036704
+  },
+  {
+     "userId": "user-15",
+     "email": "Kara@email.com",
+     "publicationId": "pub-4",
+     "frequency": "daily",
+     "channel": "email",
+     "channelId": "pub-4:email",
+     "createdAt": 1440183936,
+     "updatedAt": 1482104255
+  },
+  {
+     "userId": "user-17",
+     "email": "Bishop@email.com",
+     "publicationId": "pub-4",
+     "frequency": "daily",
+     "channel": "rss",
+     "channelId": "pub-4:rss",
+     "createdAt": 1432772710,
+     "updatedAt": 1446639875
+  },
+  {
+     "userId": "user-10",
+     "email": "Hampton@email.com",
+     "publicationId": "pub-3",
+     "frequency": "monthly",
+     "channel": "email",
+     "channelId": "pub-3:email",
+     "createdAt": 1415599137,
+     "updatedAt": 1443278637
+  },
+  {
+     "userId": "user-11",
+     "email": "Walton@email.com",
+     "publicationId": "pub-2",
+     "frequency": "monthly",
+     "channel": "rss",
+     "channelId": "pub-2:rss",
+     "createdAt": 1404207892,
+     "updatedAt": 1454467678
+  },
+  {
+     "userId": "user-15",
+     "email": "Naomi@email.com",
+     "publicationId": "pub-9",
+     "frequency": "weekly",
+     "channel": "email",
+     "channelId": "pub-9:email",
+     "createdAt": 1475500402,
+     "updatedAt": 1394564550
+  },
+  {
+     "userId": "user-7",
+     "email": "Marilyn@email.com",
+     "publicationId": "pub-4",
+     "frequency": "weekly",
+     "channel": "rss",
+     "channelId": "pub-4:rss",
+     "createdAt": 1448459532,
+     "updatedAt": 1391208043
+  },
+  {
+     "userId": "user-16",
+     "email": "Gillespie@email.com",
+     "publicationId": "pub-9",
+     "frequency": "daily",
+     "channel": "rss",
+     "channelId": "pub-9:rss",
+     "createdAt": 1426592296,
+     "updatedAt": 1421988291
+  },
+  {
+     "userId": "user-1",
+     "email": "Cora@email.com",
+     "publicationId": "pub-7",
+     "frequency": "weekly",
+     "channel": "rss",
+     "channelId": "pub-7:rss",
+     "createdAt": 1395427156,
+     "updatedAt": 1472059687
+  },
+  {
+     "userId": "user-3",
+     "email": "Kerry@email.com",
+     "publicationId": "pub-10",
+     "frequency": "weekly",
+     "channel": "email",
+     "channelId": "pub-10:email",
+     "createdAt": 1443973914,
+     "updatedAt": 1393801947
+  },
+  {
+     "userId": "user-16",
+     "email": "Tania@email.com",
+     "publicationId": "pub-6",
+     "frequency": "monthly",
+     "channel": "email",
+     "channelId": "pub-6:email",
+     "createdAt": 1425957102,
+     "updatedAt": 1425888948
+  },
+  {
+     "userId": "user-10",
+     "email": "Kasey@email.com",
+     "publicationId": "pub-2",
+     "frequency": "daily",
+     "channel": "rss",
+     "channelId": "pub-2:rss",
+     "createdAt": 1517680011,
+     "updatedAt": 1461116076
+  },
+  {
+     "userId": "user-19",
+     "email": "Ashlee@email.com",
+     "publicationId": "pub-3",
+     "frequency": "daily",
+     "channel": "email",
+     "channelId": "pub-3:email",
+     "createdAt": 1506705829,
+     "updatedAt": 1451419848
+  },
+  {
+     "userId": "user-6",
+     "email": "Brigitte@email.com",
+     "publicationId": "pub-5",
+     "frequency": "daily",
+     "channel": "rss",
+     "channelId": "pub-5:rss",
+     "createdAt": 1466075145,
+     "updatedAt": 1402662461
+  },
+  {
+     "userId": "user-14",
+     "email": "Garza@email.com",
+     "publicationId": "pub-3",
+     "frequency": "monthly",
+     "channel": "email",
+     "channelId": "pub-3:email",
+     "createdAt": 1471618264,
+     "updatedAt": 1498013699
+  },
+  {
+     "userId": "user-17",
+     "email": "Oneill@email.com",
+     "publicationId": "pub-1",
+     "frequency": "weekly",
+     "channel": "email",
+     "channelId": "pub-1:email",
+     "createdAt": 1391173384,
+     "updatedAt": 1476334423
+  },
+  {
+     "userId": "user-8",
+     "email": "Hilda@email.com",
+     "publicationId": "pub-5",
+     "frequency": "weekly",
+     "channel": "email",
+     "channelId": "pub-5:email",
+     "createdAt": 1434771450,
+     "updatedAt": 1519370134
+  },
+  {
+     "userId": "user-7",
+     "email": "Wheeler@email.com",
+     "publicationId": "pub-8",
+     "frequency": "monthly",
+     "channel": "email",
+     "channelId": "pub-8:email",
+     "createdAt": 1478717112,
+     "updatedAt": 1393692838
+  },
+  {
+     "userId": "user-18",
+     "email": "Jasmine@email.com",
+     "publicationId": "pub-8",
+     "frequency": "daily",
+     "channel": "email",
+     "channelId": "pub-8:email",
+     "createdAt": 1448374181,
+     "updatedAt": 1394708033
+  },
+  {
+     "userId": "user-1",
+     "email": "Terry@email.com",
+     "publicationId": "pub-4",
+     "frequency": "monthly",
+     "channel": "rss",
+     "channelId": "pub-4:rss",
+     "createdAt": 1524285228,
+     "updatedAt": 1393961182
+  },
+  {
+     "userId": "user-15",
+     "email": "Tracy@email.com",
+     "publicationId": "pub-8",
+     "frequency": "weekly",
+     "channel": "rss",
+     "channelId": "pub-8:rss",
+     "createdAt": 1442750199,
+     "updatedAt": 1471299659
+  },
+  {
+     "userId": "user-19",
+     "email": "Lauri@email.com",
+     "publicationId": "pub-6",
+     "frequency": "daily",
+     "channel": "rss",
+     "channelId": "pub-6:rss",
+     "createdAt": 1466410481,
+     "updatedAt": 1502264905
+  },
+  {
+     "userId": "user-8",
+     "email": "Hewitt@email.com",
+     "publicationId": "pub-8",
+     "frequency": "weekly",
+     "channel": "email",
+     "channelId": "pub-8:email",
+     "createdAt": 1471827344,
+     "updatedAt": 1527787023
+  },
+  {
+     "userId": "user-9",
+     "email": "Francis@email.com",
+     "publicationId": "pub-9",
+     "frequency": "monthly",
+     "channel": "rss",
+     "channelId": "pub-9:rss",
+     "createdAt": 1450136065,
+     "updatedAt": 1486344834
+  },
+  {
+     "userId": "user-10",
+     "email": "Obrien@email.com",
+     "publicationId": "pub-7",
+     "frequency": "weekly",
+     "channel": "rss",
+     "channelId": "pub-7:rss",
+     "createdAt": 1484451527,
+     "updatedAt": 1425170065
+  },
+  {
+     "userId": "user-13",
+     "email": "Rochelle@email.com",
+     "publicationId": "pub-2",
+     "frequency": "weekly",
+     "channel": "email",
+     "channelId": "pub-2:email",
+     "createdAt": 1422678112,
+     "updatedAt": 1468930326
+  },
+  {
+     "userId": "user-18",
+     "email": "Tasha@email.com",
+     "publicationId": "pub-1",
+     "frequency": "weekly",
+     "channel": "rss",
+     "channelId": "pub-1:rss",
+     "createdAt": 1497199732,
+     "updatedAt": 1519558830
+  },
+  {
+     "userId": "user-3",
+     "email": "Sears@email.com",
+     "publicationId": "pub-2",
+     "frequency": "monthly",
+     "channel": "email",
+     "channelId": "pub-2:email",
+     "createdAt": 1446520392,
+     "updatedAt": 1489368456
+  },
+  {
+     "userId": "user-15",
+     "email": "Mayra@email.com",
+     "publicationId": "pub-4",
+     "frequency": "monthly",
+     "channel": "rss",
+     "channelId": "pub-4:rss",
+     "createdAt": 1478358787,
+     "updatedAt": 1437841864
+  },
+  {
+     "userId": "user-18",
+     "email": "Arlene@email.com",
+     "publicationId": "pub-6",
+     "frequency": "daily",
+     "channel": "rss",
+     "channelId": "pub-6:rss",
+     "createdAt": 1494973585,
+     "updatedAt": 1479770619
+  },
+  {
+     "userId": "user-19",
+     "email": "Holloway@email.com",
+     "publicationId": "pub-1",
+     "frequency": "weekly",
+     "channel": "rss",
+     "channelId": "pub-1:rss",
+     "createdAt": 1414176802,
+     "updatedAt": 1526384690
+  },
+  {
+     "userId": "user-18",
+     "email": "Mercer@email.com",
+     "publicationId": "pub-9",
+     "frequency": "weekly",
+     "channel": "rss",
+     "channelId": "pub-9:rss",
+     "createdAt": 1436751882,
+     "updatedAt": 1452354852
+  },
+  {
+     "userId": "user-2",
+     "email": "Stout@email.com",
+     "publicationId": "pub-9",
+     "frequency": "weekly",
+     "channel": "email",
+     "channelId": "pub-9:email",
+     "createdAt": 1491632800,
+     "updatedAt": 1493975552
+  },
+  {
+     "userId": "user-16",
+     "email": "Rasmussen@email.com",
+     "publicationId": "pub-3",
+     "frequency": "monthly",
+     "channel": "rss",
+     "channelId": "pub-3:rss",
+     "createdAt": 1406564470,
+     "updatedAt": 1403894965
+  },
+  {
+     "userId": "user-16",
+     "email": "Moody@email.com",
+     "publicationId": "pub-10",
+     "frequency": "daily",
+     "channel": "rss",
+     "channelId": "pub-10:rss",
+     "createdAt": 1504605800,
+     "updatedAt": 1419831856
+  },
+  {
+     "userId": "user-16",
+     "email": "Lorrie@email.com",
+     "publicationId": "pub-8",
+     "frequency": "weekly",
+     "channel": "rss",
+     "channelId": "pub-8:rss",
+     "createdAt": 1433092214,
+     "updatedAt": 1518720213
+  },
+  {
+     "userId": "user-7",
+     "email": "Riggs@email.com",
+     "publicationId": "pub-6",
+     "frequency": "monthly",
+     "channel": "email",
+     "channelId": "pub-6:email",
+     "createdAt": 1458247533,
+     "updatedAt": 1400215797
+  },
+  {
+     "userId": "user-5",
+     "email": "Rosetta@email.com",
+     "publicationId": "pub-6",
+     "frequency": "weekly",
+     "channel": "rss",
+     "channelId": "pub-6:rss",
+     "createdAt": 1430741150,
+     "updatedAt": 1433746516
+  },
+  {
+     "userId": "user-19",
+     "email": "Burris@email.com",
+     "publicationId": "pub-9",
+     "frequency": "monthly",
+     "channel": "rss",
+     "channelId": "pub-9:rss",
+     "createdAt": 1446488365,
+     "updatedAt": 1417320918
+  },
+  {
+     "userId": "user-13",
+     "email": "Macias@email.com",
+     "publicationId": "pub-9",
+     "frequency": "monthly",
+     "channel": "rss",
+     "channelId": "pub-9:rss",
+     "createdAt": 1399221877,
+     "updatedAt": 1467486912
+  },
+  {
+     "userId": "user-14",
+     "email": "Marguerite@email.com",
+     "publicationId": "pub-9",
+     "frequency": "daily",
+     "channel": "rss",
+     "channelId": "pub-9:rss",
+     "createdAt": 1419796895,
+     "updatedAt": 1528781494
+  },
+  {
+     "userId": "user-10",
+     "email": "Yolanda@email.com",
+     "publicationId": "pub-8",
+     "frequency": "weekly",
+     "channel": "email",
+     "channelId": "pub-8:email",
+     "createdAt": 1501672184,
+     "updatedAt": 1464331596
+  },
+  {
+     "userId": "user-2",
+     "email": "Penelope@email.com",
+     "publicationId": "pub-4",
+     "frequency": "weekly",
+     "channel": "email",
+     "channelId": "pub-4:email",
+     "createdAt": 1424860444,
+     "updatedAt": 1491498901
+  },
+  {
+     "userId": "user-16",
+     "email": "Stanley@email.com",
+     "publicationId": "pub-1",
+     "frequency": "monthly",
+     "channel": "rss",
+     "channelId": "pub-1:rss",
+     "createdAt": 1525393956,
+     "updatedAt": 1429134389
+  },
+  {
+     "userId": "user-14",
+     "email": "Rosa@email.com",
+     "publicationId": "pub-7",
+     "frequency": "monthly",
+     "channel": "rss",
+     "channelId": "pub-7:rss",
+     "createdAt": 1499591457,
+     "updatedAt": 1396021030
+  },
+  {
+     "userId": "user-12",
+     "email": "Corina@email.com",
+     "publicationId": "pub-7",
+     "frequency": "monthly",
+     "channel": "email",
+     "channelId": "pub-7:email",
+     "createdAt": 1431757599,
+     "updatedAt": 1462983935
+  },
+  {
+     "userId": "user-14",
+     "email": "Vance@email.com",
+     "publicationId": "pub-6",
+     "frequency": "daily",
+     "channel": "rss",
+     "channelId": "pub-6:rss",
+     "createdAt": 1464115105,
+     "updatedAt": 1502764422
+  },
+  {
+     "userId": "user-11",
+     "email": "Fay@email.com",
+     "publicationId": "pub-2",
+     "frequency": "weekly",
+     "channel": "email",
+     "channelId": "pub-2:email",
+     "createdAt": 1456554447,
+     "updatedAt": 1410282328
+  },
+  {
+     "userId": "user-3",
+     "email": "Stacey@email.com",
+     "publicationId": "pub-5",
+     "frequency": "monthly",
+     "channel": "rss",
+     "channelId": "pub-5:rss",
+     "createdAt": 1463648849,
+     "updatedAt": 1418877562
+  },
+  {
+     "userId": "user-7",
+     "email": "Jamie@email.com",
+     "publicationId": "pub-9",
+     "frequency": "monthly",
+     "channel": "email",
+     "channelId": "pub-9:email",
+     "createdAt": 1460617622,
+     "updatedAt": 1501026759
+  },
+  {
+     "userId": "user-3",
+     "email": "Elma@email.com",
+     "publicationId": "pub-6",
+     "frequency": "weekly",
+     "channel": "rss",
+     "channelId": "pub-6:rss",
+     "createdAt": 1405131281,
+     "updatedAt": 1515966145
+  },
+  {
+     "userId": "user-9",
+     "email": "Valerie@email.com",
+     "publicationId": "pub-9",
+     "frequency": "monthly",
+     "channel": "email",
+     "channelId": "pub-9:email",
+     "createdAt": 1505385977,
+     "updatedAt": 1517473770
+  },
+  {
+     "userId": "user-12",
+     "email": "Cecilia@email.com",
+     "publicationId": "pub-2",
+     "frequency": "monthly",
+     "channel": "rss",
+     "channelId": "pub-2:rss",
+     "createdAt": 1445596727,
+     "updatedAt": 1450769621
+  },
+  {
+     "userId": "user-4",
+     "email": "Woodward@email.com",
+     "publicationId": "pub-5",
+     "frequency": "monthly",
+     "channel": "rss",
+     "channelId": "pub-5:rss",
+     "createdAt": 1483527986,
+     "updatedAt": 1428357590
+  },
+  {
+     "userId": "user-8",
+     "email": "Fitzgerald@email.com",
+     "publicationId": "pub-7",
+     "frequency": "weekly",
+     "channel": "email",
+     "channelId": "pub-7:email",
+     "createdAt": 1502193230,
+     "updatedAt": 1524175548
+  },
+  {
+     "userId": "user-3",
+     "email": "Peters@email.com",
+     "publicationId": "pub-4",
+     "frequency": "daily",
+     "channel": "rss",
+     "channelId": "pub-4:rss",
+     "createdAt": 1511778644,
+     "updatedAt": 1415223836
+  },
+  {
+     "userId": "user-8",
+     "email": "Fern@email.com",
+     "publicationId": "pub-6",
+     "frequency": "daily",
+     "channel": "rss",
+     "channelId": "pub-6:rss",
+     "createdAt": 1419221915,
+     "updatedAt": 1451505729
+  },
+  {
+     "userId": "user-4",
+     "email": "Simpson@email.com",
+     "publicationId": "pub-7",
+     "frequency": "weekly",
+     "channel": "rss",
+     "channelId": "pub-7:rss",
+     "createdAt": 1484476398,
+     "updatedAt": 1521368477
+  },
+  {
+     "userId": "user-17",
+     "email": "Murray@email.com",
+     "publicationId": "pub-3",
+     "frequency": "monthly",
+     "channel": "rss",
+     "channelId": "pub-3:rss",
+     "createdAt": 1430760106,
+     "updatedAt": 1472671556
+  },
+  {
+     "userId": "user-2",
+     "email": "Richards@email.com",
+     "publicationId": "pub-1",
+     "frequency": "daily",
+     "channel": "email",
+     "channelId": "pub-1:email",
+     "createdAt": 1442027652,
+     "updatedAt": 1509831814
+  },
+  {
+     "userId": "user-19",
+     "email": "Britney@email.com",
+     "publicationId": "pub-3",
+     "frequency": "weekly",
+     "channel": "rss",
+     "channelId": "pub-3:rss",
+     "createdAt": 1496086215,
+     "updatedAt": 1390821968
+  },
+  {
+     "userId": "user-17",
+     "email": "Hines@email.com",
+     "publicationId": "pub-6",
+     "frequency": "monthly",
+     "channel": "email",
+     "channelId": "pub-6:email",
+     "createdAt": 1481693822,
+     "updatedAt": 1421265262
+  },
+  {
+     "userId": "user-9",
+     "email": "Vargas@email.com",
+     "publicationId": "pub-7",
+     "frequency": "monthly",
+     "channel": "email",
+     "channelId": "pub-7:email",
+     "createdAt": 1444339354,
+     "updatedAt": 1481993043
+  },
+  {
+     "userId": "user-12",
+     "email": "Marisol@email.com",
+     "publicationId": "pub-9",
+     "frequency": "weekly",
+     "channel": "rss",
+     "channelId": "pub-9:rss",
+     "createdAt": 1422686767,
+     "updatedAt": 1504525421
+  },
+  {
+     "userId": "user-11",
+     "email": "Wendi@email.com",
+     "publicationId": "pub-1",
+     "frequency": "daily",
+     "channel": "rss",
+     "channelId": "pub-1:rss",
+     "createdAt": 1464184960,
+     "updatedAt": 1423509398
+  },
+  {
+     "userId": "user-14",
+     "email": "Winifred@email.com",
+     "publicationId": "pub-1",
+     "frequency": "monthly",
+     "channel": "email",
+     "channelId": "pub-1:email",
+     "createdAt": 1441486165,
+     "updatedAt": 1514354434
+  },
+  {
+     "userId": "user-18",
+     "email": "Leanne@email.com",
+     "publicationId": "pub-2",
+     "frequency": "monthly",
+     "channel": "email",
+     "channelId": "pub-2:email",
+     "createdAt": 1478985560,
+     "updatedAt": 1500530985
+  },
+  {
+     "userId": "user-6",
+     "email": "Clements@email.com",
+     "publicationId": "pub-1",
+     "frequency": "daily",
+     "channel": "rss",
+     "channelId": "pub-1:rss",
+     "createdAt": 1413488558,
+     "updatedAt": 1466087674
+  },
+  {
+     "userId": "user-10",
+     "email": "Rosa@email.com",
+     "publicationId": "pub-1",
+     "frequency": "weekly",
+     "channel": "email",
+     "channelId": "pub-1:email",
+     "createdAt": 1444090492,
+     "updatedAt": 1464482369
+  },
+  {
+     "userId": "user-5",
+     "email": "Adriana@email.com",
+     "publicationId": "pub-9",
+     "frequency": "weekly",
+     "channel": "email",
+     "channelId": "pub-9:email",
+     "createdAt": 1426332392,
+     "updatedAt": 1482391454
+  },
+  {
+     "userId": "user-6",
+     "email": "Sharron@email.com",
+     "publicationId": "pub-6",
+     "frequency": "weekly",
+     "channel": "email",
+     "channelId": "pub-6:email",
+     "createdAt": 1437509243,
+     "updatedAt": 1450028218
+  },
+  {
+     "userId": "user-10",
+     "email": "Abby@email.com",
+     "publicationId": "pub-2",
+     "frequency": "monthly",
+     "channel": "email",
+     "channelId": "pub-2:email",
+     "createdAt": 1511475735,
+     "updatedAt": 1417329110
+  },
+  {
+     "userId": "user-3",
+     "email": "Valenzuela@email.com",
+     "publicationId": "pub-3",
+     "frequency": "daily",
+     "channel": "rss",
+     "channelId": "pub-3:rss",
+     "createdAt": 1501560784,
+     "updatedAt": 1497193357
+  },
+  {
+     "userId": "user-4",
+     "email": "Calderon@email.com",
+     "publicationId": "pub-5",
+     "frequency": "monthly",
+     "channel": "email",
+     "channelId": "pub-5:email",
+     "createdAt": 1448844533,
+     "updatedAt": 1452169038
+  },
+  {
+     "userId": "user-1",
+     "email": "Jordan@email.com",
+     "publicationId": "pub-2",
+     "frequency": "daily",
+     "channel": "email",
+     "channelId": "pub-2:email",
+     "createdAt": 1460037201,
+     "updatedAt": 1479339206
+  },
+  {
+     "userId": "user-6",
+     "email": "Arnold@email.com",
+     "publicationId": "pub-4",
+     "frequency": "monthly",
+     "channel": "rss",
+     "channelId": "pub-4:rss",
+     "createdAt": 1488248415,
+     "updatedAt": 1428703295
+  },
+  {
+     "userId": "user-20",
+     "email": "Barr@email.com",
+     "publicationId": "pub-2",
+     "frequency": "monthly",
+     "channel": "rss",
+     "channelId": "pub-2:rss",
+     "createdAt": 1465661909,
+     "updatedAt": 1463574339
+  },
+  {
+     "userId": "user-12",
+     "email": "England@email.com",
+     "publicationId": "pub-5",
+     "frequency": "monthly",
+     "channel": "email",
+     "channelId": "pub-5:email",
+     "createdAt": 1468821739,
+     "updatedAt": 1504804331
+  },
+  {
+     "userId": "user-10",
+     "email": "Velazquez@email.com",
+     "publicationId": "pub-5",
+     "frequency": "daily",
+     "channel": "rss",
+     "channelId": "pub-5:rss",
+     "createdAt": 1521550040,
+     "updatedAt": 1475939881
+  },
+  {
+     "userId": "user-6",
+     "email": "Kathleen@email.com",
+     "publicationId": "pub-4",
+     "frequency": "monthly",
+     "channel": "email",
+     "channelId": "pub-4:email",
+     "createdAt": 1429776858,
+     "updatedAt": 1515035157
+  },
+  {
+     "userId": "user-14",
+     "email": "Maxwell@email.com",
+     "publicationId": "pub-2",
+     "frequency": "monthly",
+     "channel": "email",
+     "channelId": "pub-2:email",
+     "createdAt": 1400920300,
+     "updatedAt": 1446262824
+  },
+  {
+     "userId": "user-18",
+     "email": "Jacobson@email.com",
+     "publicationId": "pub-3",
+     "frequency": "weekly",
+     "channel": "rss",
+     "channelId": "pub-3:rss",
+     "createdAt": 1482672927,
+     "updatedAt": 1392477377
+  },
+  {
+     "userId": "user-17",
+     "email": "Gonzales@email.com",
+     "publicationId": "pub-10",
+     "frequency": "daily",
+     "channel": "rss",
+     "channelId": "pub-10:rss",
+     "createdAt": 1447838590,
+     "updatedAt": 1509221280
+  },
+  {
+     "userId": "user-12",
+     "email": "Brandi@email.com",
+     "publicationId": "pub-5",
+     "frequency": "weekly",
+     "channel": "rss",
+     "channelId": "pub-5:rss",
+     "createdAt": 1398808293,
+     "updatedAt": 1460050605
+  },
+  {
+     "userId": "user-10",
+     "email": "Bridget@email.com",
+     "publicationId": "pub-4",
+     "frequency": "daily",
+     "channel": "rss",
+     "channelId": "pub-4:rss",
+     "createdAt": 1515045486,
+     "updatedAt": 1455854432
+  },
+  {
+     "userId": "user-8",
+     "email": "Stefanie@email.com",
+     "publicationId": "pub-2",
+     "frequency": "monthly",
+     "channel": "rss",
+     "channelId": "pub-2:rss",
+     "createdAt": 1513171735,
+     "updatedAt": 1508208844
+  },
+  {
+     "userId": "user-7",
+     "email": "Gina@email.com",
+     "publicationId": "pub-5",
+     "frequency": "weekly",
+     "channel": "rss",
+     "channelId": "pub-5:rss",
+     "createdAt": 1389173709,
+     "updatedAt": 1449680556
+  },
+  {
+     "userId": "user-18",
+     "email": "Pearson@email.com",
+     "publicationId": "pub-6",
+     "frequency": "weekly",
+     "channel": "email",
+     "channelId": "pub-6:email",
+     "createdAt": 1421835303,
+     "updatedAt": 1530883035
+  },
+  {
+     "userId": "user-2",
+     "email": "Rena@email.com",
+     "publicationId": "pub-6",
+     "frequency": "daily",
+     "channel": "email",
+     "channelId": "pub-6:email",
+     "createdAt": 1440376264,
+     "updatedAt": 1448218272
+  },
+  {
+     "userId": "user-7",
+     "email": "Hartman@email.com",
+     "publicationId": "pub-6",
+     "frequency": "monthly",
+     "channel": "rss",
+     "channelId": "pub-6:rss",
+     "createdAt": 1513721977,
+     "updatedAt": 1491701509
+  },
+  {
+     "userId": "user-10",
+     "email": "Monroe@email.com",
+     "publicationId": "pub-1",
+     "frequency": "weekly",
+     "channel": "rss",
+     "channelId": "pub-1:rss",
+     "createdAt": 1451964900,
+     "updatedAt": 1492538761
+  },
+  {
+     "userId": "user-4",
+     "email": "Gross@email.com",
+     "publicationId": "pub-3",
+     "frequency": "weekly",
+     "channel": "rss",
+     "channelId": "pub-3:rss",
+     "createdAt": 1394187946,
+     "updatedAt": 1513048648
+  },
+  {
+     "userId": "user-7",
+     "email": "Whitney@email.com",
+     "publicationId": "pub-1",
+     "frequency": "monthly",
+     "channel": "email",
+     "channelId": "pub-1:email",
+     "createdAt": 1510950540,
+     "updatedAt": 1412652755
+  },
+  {
+     "userId": "user-1",
+     "email": "Brock@email.com",
+     "publicationId": "pub-3",
+     "frequency": "monthly",
+     "channel": "email",
+     "channelId": "pub-3:email",
+     "createdAt": 1525009336,
+     "updatedAt": 1497349950
+  },
+  {
+     "userId": "user-9",
+     "email": "Rowland@email.com",
+     "publicationId": "pub-5",
+     "frequency": "daily",
+     "channel": "rss",
+     "channelId": "pub-5:rss",
+     "createdAt": 1487520222,
+     "updatedAt": 1405860848
+  },
+  {
+     "userId": "user-17",
+     "email": "Johnnie@email.com",
+     "publicationId": "pub-9",
+     "frequency": "weekly",
+     "channel": "rss",
+     "channelId": "pub-9:rss",
+     "createdAt": 1463188539,
+     "updatedAt": 1520372986
+  },
+  {
+     "userId": "user-2",
+     "email": "Socorro@email.com",
+     "publicationId": "pub-9",
+     "frequency": "monthly",
+     "channel": "rss",
+     "channelId": "pub-9:rss",
+     "createdAt": 1402457531,
+     "updatedAt": 1439535511
+  },
+  {
+     "userId": "user-20",
+     "email": "Yang@email.com",
+     "publicationId": "pub-4",
+     "frequency": "daily",
+     "channel": "rss",
+     "channelId": "pub-4:rss",
+     "createdAt": 1509637009,
+     "updatedAt": 1500181076
+  },
+  {
+     "userId": "user-1",
+     "email": "Pearl@email.com",
+     "publicationId": "pub-2",
+     "frequency": "monthly",
+     "channel": "rss",
+     "channelId": "pub-2:rss",
+     "createdAt": 1522235272,
+     "updatedAt": 1423100525
+  },
+  {
+     "userId": "user-11",
+     "email": "May@email.com",
+     "publicationId": "pub-5",
+     "frequency": "daily",
+     "channel": "rss",
+     "channelId": "pub-5:rss",
+     "createdAt": 1404862434,
+     "updatedAt": 1523003988
+  },
+  {
+     "userId": "user-18",
+     "email": "Geraldine@email.com",
+     "publicationId": "pub-4",
+     "frequency": "monthly",
+     "channel": "rss",
+     "channelId": "pub-4:rss",
+     "createdAt": 1486440289,
+     "updatedAt": 1453494541
+  },
+  {
+     "userId": "user-12",
+     "email": "Herminia@email.com",
+     "publicationId": "pub-4",
+     "frequency": "monthly",
+     "channel": "rss",
+     "channelId": "pub-4:rss",
+     "createdAt": 1513118098,
+     "updatedAt": 1490497858
+  },
+  {
+     "userId": "user-20",
+     "email": "Vazquez@email.com",
+     "publicationId": "pub-6",
+     "frequency": "daily",
+     "channel": "rss",
+     "channelId": "pub-6:rss",
+     "createdAt": 1403956239,
+     "updatedAt": 1482673675
+  },
+  {
+     "userId": "user-8",
+     "email": "Freeman@email.com",
+     "publicationId": "pub-10",
+     "frequency": "monthly",
+     "channel": "email",
+     "channelId": "pub-10:email",
+     "createdAt": 1438298304,
+     "updatedAt": 1460830693
+  },
+  {
+     "userId": "user-1",
+     "email": "Mcconnell@email.com",
+     "publicationId": "pub-10",
+     "frequency": "daily",
+     "channel": "rss",
+     "channelId": "pub-10:rss",
+     "createdAt": 1454765597,
+     "updatedAt": 1396761166
+  },
+  {
+     "userId": "user-6",
+     "email": "Earline@email.com",
+     "publicationId": "pub-9",
+     "frequency": "weekly",
+     "channel": "rss",
+     "channelId": "pub-9:rss",
+     "createdAt": 1463859932,
+     "updatedAt": 1508004686
+  },
+  {
+     "userId": "user-5",
+     "email": "Monica@email.com",
+     "publicationId": "pub-5",
+     "frequency": "weekly",
+     "channel": "email",
+     "channelId": "pub-5:email",
+     "createdAt": 1529321799,
+     "updatedAt": 1489929860
+  },
+  {
+     "userId": "user-4",
+     "email": "June@email.com",
+     "publicationId": "pub-1",
+     "frequency": "daily",
+     "channel": "rss",
+     "channelId": "pub-1:rss",
+     "createdAt": 1440065202,
+     "updatedAt": 1523847424
+  },
+  {
+     "userId": "user-8",
+     "email": "Noelle@email.com",
+     "publicationId": "pub-4",
+     "frequency": "daily",
+     "channel": "rss",
+     "channelId": "pub-4:rss",
+     "createdAt": 1515665793,
+     "updatedAt": 1523663570
+  },
+  {
+     "userId": "user-10",
+     "email": "Jewell@email.com",
+     "publicationId": "pub-6",
+     "frequency": "daily",
+     "channel": "rss",
+     "channelId": "pub-6:rss",
+     "createdAt": 1421922708,
+     "updatedAt": 1509843545
+  },
+  {
+     "userId": "user-1",
+     "email": "Schroeder@email.com",
+     "publicationId": "pub-5",
+     "frequency": "monthly",
+     "channel": "rss",
+     "channelId": "pub-5:rss",
+     "createdAt": 1484950603,
+     "updatedAt": 1441374338
+  },
+  {
+     "userId": "user-17",
+     "email": "Velez@email.com",
+     "publicationId": "pub-5",
+     "frequency": "daily",
+     "channel": "rss",
+     "channelId": "pub-5:rss",
+     "createdAt": 1471764138,
+     "updatedAt": 1447178878
+  },
+  {
+     "userId": "user-20",
+     "email": "Katharine@email.com",
+     "publicationId": "pub-5",
+     "frequency": "daily",
+     "channel": "email",
+     "channelId": "pub-5:email",
+     "createdAt": 1473584073,
+     "updatedAt": 1487720745
+  },
+  {
+     "userId": "user-18",
+     "email": "Maynard@email.com",
+     "publicationId": "pub-7",
+     "frequency": "daily",
+     "channel": "email",
+     "channelId": "pub-7:email",
+     "createdAt": 1396221584,
+     "updatedAt": 1437715574
+  },
+  {
+     "userId": "user-8",
+     "email": "Kimberley@email.com",
+     "publicationId": "pub-2",
+     "frequency": "monthly",
+     "channel": "email",
+     "channelId": "pub-2:email",
+     "createdAt": 1442268886,
+     "updatedAt": 1396549370
+  },
+  {
+     "userId": "user-7",
+     "email": "Christina@email.com",
+     "publicationId": "pub-2",
+     "frequency": "daily",
+     "channel": "email",
+     "channelId": "pub-2:email",
+     "createdAt": 1431521141,
+     "updatedAt": 1500502044
+  },
+  {
+     "userId": "user-13",
+     "email": "Leonor@email.com",
+     "publicationId": "pub-1",
+     "frequency": "weekly",
+     "channel": "email",
+     "channelId": "pub-1:email",
+     "createdAt": 1445976201,
+     "updatedAt": 1504207138
+  },
+  {
+     "userId": "user-17",
+     "email": "Sharlene@email.com",
+     "publicationId": "pub-8",
+     "frequency": "weekly",
+     "channel": "rss",
+     "channelId": "pub-8:rss",
+     "createdAt": 1520334349,
+     "updatedAt": 1442709318
+  },
+  {
+     "userId": "user-20",
+     "email": "Griffin@email.com",
+     "publicationId": "pub-6",
+     "frequency": "weekly",
+     "channel": "email",
+     "channelId": "pub-6:email",
+     "createdAt": 1404601986,
+     "updatedAt": 1418388235
+  },
+  {
+     "userId": "user-9",
+     "email": "Rivas@email.com",
+     "publicationId": "pub-1",
+     "frequency": "daily",
+     "channel": "email",
+     "channelId": "pub-1:email",
+     "createdAt": 1484433167,
+     "updatedAt": 1415041448
+  },
+  {
+     "userId": "user-8",
+     "email": "Francine@email.com",
+     "publicationId": "pub-1",
+     "frequency": "monthly",
+     "channel": "rss",
+     "channelId": "pub-1:rss",
+     "createdAt": 1404602267,
+     "updatedAt": 1415127893
+  },
+  {
+     "userId": "user-8",
+     "email": "Rosemary@email.com",
+     "publicationId": "pub-1",
+     "frequency": "daily",
+     "channel": "email",
+     "channelId": "pub-1:email",
+     "createdAt": 1407889963,
+     "updatedAt": 1418423893
+  },
+  {
+     "userId": "user-13",
+     "email": "Harrington@email.com",
+     "publicationId": "pub-4",
+     "frequency": "daily",
+     "channel": "email",
+     "channelId": "pub-4:email",
+     "createdAt": 1462637221,
+     "updatedAt": 1450529502
+  },
+  {
+     "userId": "user-15",
+     "email": "Jocelyn@email.com",
+     "publicationId": "pub-6",
+     "frequency": "weekly",
+     "channel": "rss",
+     "channelId": "pub-6:rss",
+     "createdAt": 1396197792,
+     "updatedAt": 1503191379
+  },
+  {
+     "userId": "user-13",
+     "email": "Millicent@email.com",
+     "publicationId": "pub-9",
+     "frequency": "weekly",
+     "channel": "email",
+     "channelId": "pub-9:email",
+     "createdAt": 1530673342,
+     "updatedAt": 1490048065
+  },
+  {
+     "userId": "user-20",
+     "email": "Sanford@email.com",
+     "publicationId": "pub-5",
+     "frequency": "monthly",
+     "channel": "rss",
+     "channelId": "pub-5:rss",
+     "createdAt": 1389003897,
+     "updatedAt": 1432488377
+  },
+  {
+     "userId": "user-10",
+     "email": "Anne@email.com",
+     "publicationId": "pub-4",
+     "frequency": "daily",
+     "channel": "email",
+     "channelId": "pub-4:email",
+     "createdAt": 1427642594,
+     "updatedAt": 1468692143
+  },
+  {
+     "userId": "user-4",
+     "email": "Young@email.com",
+     "publicationId": "pub-10",
+     "frequency": "weekly",
+     "channel": "email",
+     "channelId": "pub-10:email",
+     "createdAt": 1425333793,
+     "updatedAt": 1461652743
+  },
+  {
+     "userId": "user-12",
+     "email": "Clements@email.com",
+     "publicationId": "pub-1",
+     "frequency": "daily",
+     "channel": "email",
+     "channelId": "pub-1:email",
+     "createdAt": 1440044163,
+     "updatedAt": 1493465579
+  },
+  {
+     "userId": "user-9",
+     "email": "Julianne@email.com",
+     "publicationId": "pub-4",
+     "frequency": "daily",
+     "channel": "email",
+     "channelId": "pub-4:email",
+     "createdAt": 1519535494,
+     "updatedAt": 1397622825
+  },
+  {
+     "userId": "user-8",
+     "email": "Shepard@email.com",
+     "publicationId": "pub-3",
+     "frequency": "daily",
+     "channel": "email",
+     "channelId": "pub-3:email",
+     "createdAt": 1505817534,
+     "updatedAt": 1462681630
+  },
+  {
+     "userId": "user-15",
+     "email": "Moore@email.com",
+     "publicationId": "pub-2",
+     "frequency": "weekly",
+     "channel": "email",
+     "channelId": "pub-2:email",
+     "createdAt": 1437618109,
+     "updatedAt": 1479782039
+  },
+  {
+     "userId": "user-3",
+     "email": "Castillo@email.com",
+     "publicationId": "pub-7",
+     "frequency": "weekly",
+     "channel": "email",
+     "channelId": "pub-7:email",
+     "createdAt": 1447661464,
+     "updatedAt": 1443697888
+  },
+  {
+     "userId": "user-14",
+     "email": "Yolanda@email.com",
+     "publicationId": "pub-2",
+     "frequency": "weekly",
+     "channel": "rss",
+     "channelId": "pub-2:rss",
+     "createdAt": 1504148327,
+     "updatedAt": 1499237037
+  },
+  {
+     "userId": "user-12",
+     "email": "Kristie@email.com",
+     "publicationId": "pub-6",
+     "frequency": "monthly",
+     "channel": "rss",
+     "channelId": "pub-6:rss",
+     "createdAt": 1508507894,
+     "updatedAt": 1512431048
+  },
+  {
+     "userId": "user-9",
+     "email": "Tami@email.com",
+     "publicationId": "pub-8",
+     "frequency": "weekly",
+     "channel": "rss",
+     "channelId": "pub-8:rss",
+     "createdAt": 1503323233,
+     "updatedAt": 1460053136
+  },
+  {
+     "userId": "user-20",
+     "email": "Dorthy@email.com",
+     "publicationId": "pub-3",
+     "frequency": "monthly",
+     "channel": "email",
+     "channelId": "pub-3:email",
+     "createdAt": 1399928584,
+     "updatedAt": 1435865376
+  },
+  {
+     "userId": "user-15",
+     "email": "Patty@email.com",
+     "publicationId": "pub-6",
+     "frequency": "monthly",
+     "channel": "email",
+     "channelId": "pub-6:email",
+     "createdAt": 1421488570,
+     "updatedAt": 1405414010
+  },
+  {
+     "userId": "user-20",
+     "email": "Velez@email.com",
+     "publicationId": "pub-9",
+     "frequency": "daily",
+     "channel": "email",
+     "channelId": "pub-9:email",
+     "createdAt": 1424725076,
+     "updatedAt": 1406274766
+  },
+  {
+     "userId": "user-19",
+     "email": "Prince@email.com",
+     "publicationId": "pub-8",
+     "frequency": "weekly",
+     "channel": "rss",
+     "channelId": "pub-8:rss",
+     "createdAt": 1389317011,
+     "updatedAt": 1477671472
+  },
+  {
+     "userId": "user-3",
+     "email": "Malinda@email.com",
+     "publicationId": "pub-10",
+     "frequency": "monthly",
+     "channel": "rss",
+     "channelId": "pub-10:rss",
+     "createdAt": 1471040004,
+     "updatedAt": 1425054411
+  },
+  {
+     "userId": "user-9",
+     "email": "Cruz@email.com",
+     "publicationId": "pub-2",
+     "frequency": "monthly",
+     "channel": "email",
+     "channelId": "pub-2:email",
+     "createdAt": 1470183782,
+     "updatedAt": 1505154378
+  },
+  {
+     "userId": "user-7",
+     "email": "Yates@email.com",
+     "publicationId": "pub-7",
+     "frequency": "daily",
+     "channel": "email",
+     "channelId": "pub-7:email",
+     "createdAt": 1399761736,
+     "updatedAt": 1442779422
+  },
+  {
+     "userId": "user-16",
+     "email": "Sandra@email.com",
+     "publicationId": "pub-1",
+     "frequency": "daily",
+     "channel": "email",
+     "channelId": "pub-1:email",
+     "createdAt": 1474566250,
+     "updatedAt": 1416590345
+  },
+  {
+     "userId": "user-15",
+     "email": "Hines@email.com",
+     "publicationId": "pub-3",
+     "frequency": "weekly",
+     "channel": "email",
+     "channelId": "pub-3:email",
+     "createdAt": 1461231743,
+     "updatedAt": 1409824250
+  },
+  {
+     "userId": "user-9",
+     "email": "Kristen@email.com",
+     "publicationId": "pub-2",
+     "frequency": "monthly",
+     "channel": "rss",
+     "channelId": "pub-2:rss",
+     "createdAt": 1480937388,
+     "updatedAt": 1496734034
+  },
+  {
+     "userId": "user-2",
+     "email": "Claudia@email.com",
+     "publicationId": "pub-7",
+     "frequency": "weekly",
+     "channel": "rss",
+     "channelId": "pub-7:rss",
+     "createdAt": 1518910299,
+     "updatedAt": 1531670302
+  },
+  {
+     "userId": "user-20",
+     "email": "Whitehead@email.com",
+     "publicationId": "pub-8",
+     "frequency": "monthly",
+     "channel": "rss",
+     "channelId": "pub-8:rss",
+     "createdAt": 1456046632,
+     "updatedAt": 1505876245
+  },
+  {
+     "userId": "user-8",
+     "email": "Matthews@email.com",
+     "publicationId": "pub-3",
+     "frequency": "monthly",
+     "channel": "rss",
+     "channelId": "pub-3:rss",
+     "createdAt": 1423361507,
+     "updatedAt": 1442887814
+  },
+  {
+     "userId": "user-15",
+     "email": "Sonia@email.com",
+     "publicationId": "pub-9",
+     "frequency": "daily",
+     "channel": "rss",
+     "channelId": "pub-9:rss",
+     "createdAt": 1527003495,
+     "updatedAt": 1433242056
+  },
+  {
+     "userId": "user-15",
+     "email": "Vilma@email.com",
+     "publicationId": "pub-7",
+     "frequency": "monthly",
+     "channel": "email",
+     "channelId": "pub-7:email",
+     "createdAt": 1526191844,
+     "updatedAt": 1452917893
+  },
+  {
+     "userId": "user-20",
+     "email": "Bauer@email.com",
+     "publicationId": "pub-4",
+     "frequency": "monthly",
+     "channel": "email",
+     "channelId": "pub-4:email",
+     "createdAt": 1434661288,
+     "updatedAt": 1446396189
+  },
+  {
+     "userId": "user-8",
+     "email": "Wyatt@email.com",
+     "publicationId": "pub-9",
+     "frequency": "weekly",
+     "channel": "email",
+     "channelId": "pub-9:email",
+     "createdAt": 1441468029,
+     "updatedAt": 1475014408
+  },
+  {
+     "userId": "user-7",
+     "email": "Contreras@email.com",
+     "publicationId": "pub-4",
+     "frequency": "daily",
+     "channel": "email",
+     "channelId": "pub-4:email",
+     "createdAt": 1508494150,
+     "updatedAt": 1495397858
+  },
+  {
+     "userId": "user-3",
+     "email": "Campos@email.com",
+     "publicationId": "pub-1",
+     "frequency": "daily",
+     "channel": "rss",
+     "channelId": "pub-1:rss",
+     "createdAt": 1419376985,
+     "updatedAt": 1408732766
+  },
+  {
+     "userId": "user-9",
+     "email": "Willie@email.com",
+     "publicationId": "pub-7",
+     "frequency": "weekly",
+     "channel": "rss",
+     "channelId": "pub-7:rss",
+     "createdAt": 1438147508,
+     "updatedAt": 1404470507
+  },
+  {
+     "userId": "user-1",
+     "email": "Chandler@email.com",
+     "publicationId": "pub-1",
+     "frequency": "weekly",
+     "channel": "email",
+     "channelId": "pub-1:email",
+     "createdAt": 1411586677,
+     "updatedAt": 1498027777
+  },
+  {
+     "userId": "user-10",
+     "email": "Dawson@email.com",
+     "publicationId": "pub-10",
+     "frequency": "monthly",
+     "channel": "rss",
+     "channelId": "pub-10:rss",
+     "createdAt": 1405971183,
+     "updatedAt": 1405618691
+  },
+  {
+     "userId": "user-18",
+     "email": "Harding@email.com",
+     "publicationId": "pub-8",
+     "frequency": "monthly",
+     "channel": "rss",
+     "channelId": "pub-8:rss",
+     "createdAt": 1460783005,
+     "updatedAt": 1434664290
+  },
+  {
+     "userId": "user-4",
+     "email": "Jeannie@email.com",
+     "publicationId": "pub-4",
+     "frequency": "monthly",
+     "channel": "rss",
+     "channelId": "pub-4:rss",
+     "createdAt": 1430066967,
+     "updatedAt": 1527311270
+  },
+  {
+     "userId": "user-14",
+     "email": "Herman@email.com",
+     "publicationId": "pub-8",
+     "frequency": "daily",
+     "channel": "rss",
+     "channelId": "pub-8:rss",
+     "createdAt": 1453850613,
+     "updatedAt": 1420070292
+  },
+  {
+     "userId": "user-5",
+     "email": "Nettie@email.com",
+     "publicationId": "pub-9",
+     "frequency": "daily",
+     "channel": "rss",
+     "channelId": "pub-9:rss",
+     "createdAt": 1466280284,
+     "updatedAt": 1525387360
+  },
+  {
+     "userId": "user-6",
+     "email": "Yvonne@email.com",
+     "publicationId": "pub-5",
+     "frequency": "daily",
+     "channel": "email",
+     "channelId": "pub-5:email",
+     "createdAt": 1444179648,
+     "updatedAt": 1431827173
+  },
+  {
+     "userId": "user-11",
+     "email": "Renee@email.com",
+     "publicationId": "pub-10",
+     "frequency": "weekly",
+     "channel": "email",
+     "channelId": "pub-10:email",
+     "createdAt": 1454261778,
+     "updatedAt": 1462654412
+  },
+  {
+     "userId": "user-14",
+     "email": "Munoz@email.com",
+     "publicationId": "pub-6",
+     "frequency": "daily",
+     "channel": "email",
+     "channelId": "pub-6:email",
+     "createdAt": 1474433293,
+     "updatedAt": 1446442652
+  },
+  {
+     "userId": "user-16",
+     "email": "Alvarez@email.com",
+     "publicationId": "pub-5",
+     "frequency": "monthly",
+     "channel": "rss",
+     "channelId": "pub-5:rss",
+     "createdAt": 1520808192,
+     "updatedAt": 1454168119
+  },
+  {
+     "userId": "user-11",
+     "email": "Mcleod@email.com",
+     "publicationId": "pub-9",
+     "frequency": "monthly",
+     "channel": "rss",
+     "channelId": "pub-9:rss",
+     "createdAt": 1467765349,
+     "updatedAt": 1392335737
+  },
+  {
+     "userId": "user-12",
+     "email": "Thornton@email.com",
+     "publicationId": "pub-2",
+     "frequency": "monthly",
+     "channel": "email",
+     "channelId": "pub-2:email",
+     "createdAt": 1499918405,
+     "updatedAt": 1500005283
+  },
+  {
+     "userId": "user-5",
+     "email": "Gallegos@email.com",
+     "publicationId": "pub-1",
+     "frequency": "weekly",
+     "channel": "email",
+     "channelId": "pub-1:email",
+     "createdAt": 1466493838,
+     "updatedAt": 1500624447
+  },
+  {
+     "userId": "user-4",
+     "email": "Justice@email.com",
+     "publicationId": "pub-7",
+     "frequency": "monthly",
+     "channel": "email",
+     "channelId": "pub-7:email",
+     "createdAt": 1488419663,
+     "updatedAt": 1441237003
+  },
+  {
+     "userId": "user-2",
+     "email": "Hopkins@email.com",
+     "publicationId": "pub-6",
+     "frequency": "monthly",
+     "channel": "rss",
+     "channelId": "pub-6:rss",
+     "createdAt": 1450641234,
+     "updatedAt": 1436861329
+  }
+]
