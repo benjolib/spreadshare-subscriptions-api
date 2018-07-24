@@ -35,6 +35,7 @@ provider:
   apiKeys:
     - ${self:provider.stage}-subscriptions-apikey
   memorySize: 512
+  timeout: 30
   versionFunctions: false
   environment: ${file(env.yml):${self:provider.stage}}
   iamRoleStatements:
@@ -43,9 +44,6 @@ provider:
         - dynamodb:Query
         - dynamodb:Scan
         - dynamodb:GetItem
-        - dynamodb:PutItem
-        - dynamodb:UpdateItem
-        - dynamodb:DeleteItem
       Resource: "arn:aws:dynamodb:${self:provider.region}:*:table/${self:provider.environment.TABLE_NAME}"
     - Effect: Allow
       Action:
