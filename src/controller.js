@@ -13,33 +13,34 @@ export default class SubController implements ControllerI {
 
   subscribe(subscription: Subscription): Promise<Subscription> {
     const model = {
-      channelId: `${subscription.publicationId}:${subscription.channel}`,
+      channelFrequency: `${subscription.channel}:${subscription.frequency}`,
+      channelId: `${subscription.streamId}:${subscription.channel}`,
       ...subscription
     };
     // $FlowIgnore
-    return this.table.saveOrUpdate(model).then(R.dissoc('channelId'));
+    return this.table
+      .saveOrUpdate(model)
+      .then(R.omit(['channelId', 'channelFrequency']));
   }
 
   unsubscribe(
     userId: string,
-    publicationId: string,
+    streamId: string,
     channel: Channel
   ): Promise<void> {
-    const channelId = `${publicationId}:${channel}`;
+    const channelId = `${streamId}:${channel}`;
     return this.table.delete(userId, channelId);
   }
 
   getSubscription(
     userId: string,
-    publicationId: string,
+    streamId: string,
     channel: Channel
   ): Promise<?Subscription> {
-    const channelId = `${publicationId}:${channel}`;
-    return (
-      this.table
-        .get(userId, channelId)
-        // $FlowIgnore
-        .then(res => (res ? R.dissoc('channelId', res) : undefined))
+    const channelId = `${streamId}:${channel}`;
+    return this.table.get(userId, channelId).then(
+      // $FlowIgnore
+      res => (res ? R.omit(['channelId', 'channelFrequency'], res) : undefined)
     );
   }
 
@@ -51,19 +52,19 @@ export default class SubController implements ControllerI {
       this.table
         .getAllForUser(userId, channel)
         // $FlowIgnore
-        .then(R.map(R.dissoc('channelId')))
+        .then(R.map(R.omit(['channelId', 'channelFrequency'])))
     );
   }
 
-  getAllForPublication(
-    publicationId: string,
+  getAllForStream(
+    streamId: string,
     channel: ?Channel
   ): Promise<Array<Subscription>> {
     return (
       this.table
-        .getAllForPublication(publicationId, channel)
+        .getAllForStream(streamId, channel)
         // $FlowIgnore
-        .then(R.map(R.dissoc('channelId')))
+        .then(R.map(R.omit(['channelId', 'channelFrequency'])))
     );
   }
 }

@@ -9,7 +9,7 @@ describe('subscriptionTableTest', () => {
 
   const subOne = {
     userId: userOneId,
-    publicationId: 'abc',
+    streamId: 'abc',
     channel: 'email',
     channelId: 'abc:email',
     email: 'some@email.com',
@@ -19,7 +19,7 @@ describe('subscriptionTableTest', () => {
   };
   const subTwo = {
     userId: userOneId,
-    publicationId: 'xyz',
+    streamId: 'xyz',
     channel: 'rss',
     channelId: 'xyz:rss',
     frequency: 'weekly',
@@ -29,7 +29,7 @@ describe('subscriptionTableTest', () => {
 
   const subThree = {
     userId: userTwoId,
-    publicationId: 'xyz',
+    streamId: 'xyz',
     channel: 'email',
     channelId: 'xyz:email',
     frequency: 'daily',
@@ -259,9 +259,9 @@ describe('subscriptionTableTest', () => {
     const queryParams = {
       TableName: tableName,
       IndexName: 'publication-channel-index',
-      KeyConditionExpression: 'publicationId = :publicationId',
+      KeyConditionExpression: 'streamId = :streamId',
       ExpressionAttributeValues: {
-        ':publicationId': 'xyz'
+        ':streamId': 'xyz'
       }
     };
 
@@ -288,10 +288,9 @@ describe('subscriptionTableTest', () => {
     const queryParams = {
       TableName: tableName,
       IndexName: 'publication-channel-index',
-      KeyConditionExpression:
-        'publicationId = :publicationId AND channel = :channel',
+      KeyConditionExpression: 'streamId = :streamId AND channel = :channel',
       ExpressionAttributeValues: {
-        ':publicationId': 'xyz',
+        ':streamId': 'xyz',
         ':channel': 'rss'
       }
     };

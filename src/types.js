@@ -5,13 +5,13 @@ export interface ControllerI {
 
   unsubscribe(
     userId: string,
-    publicationId: string,
+    streamId: string,
     channel: Channel
   ): Promise<void>;
 
   getSubscription(
     userId: string,
-    publicationId: string,
+    streamId: string,
     channel: Channel
   ): Promise<?Subscription>;
 
@@ -20,8 +20,8 @@ export interface ControllerI {
     channel: ?Channel
   ): Promise<Array<Subscription>>;
 
-  getAllForPublication(
-    publicationId: string,
+  getAllForStream(
+    streamId: string,
     channel: ?Channel
   ): Promise<Array<Subscription>>;
 }
@@ -36,7 +36,7 @@ export type Frequency = 'daily' | 'weekly' | 'monthly';
 export type Subscription = {
   +userId: string,
   +email: string,
-  +publicationId: string,
+  +streamId: string,
   +frequency: Frequency,
   +channel: Channel,
   +createdAt?: number,
@@ -44,13 +44,14 @@ export type Subscription = {
 };
 
 export type SubscriptionDbModel = Subscription & {
-  +channelId: string
+  +channelId: string,
+  +channelFrequency: string
 };
 
 type Event = {
   pathParameters: {
     +userId: string,
-    +publicationId: string,
+    +streamId: string,
     +channel: Channel
   }
 };
@@ -58,7 +59,7 @@ type Event = {
 type PostEvent = {
   pathParameters: {
     +userId: string,
-    +publicationId: string,
+    +streamId: string,
     +channel: Channel
   },
   body: {

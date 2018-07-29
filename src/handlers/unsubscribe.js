@@ -6,9 +6,9 @@ import { controller } from './factory';
 import { errorRes } from '../utils/http';
 
 export const handler: Handler = async event => {
-  const { userId, publicationId, channel } = event.pathParameters;
+  const { userId, streamId, channel } = event.pathParameters;
   const [err]: [Error] = await to(
-    controller.unsubscribe(userId, publicationId, channel)
+    controller.unsubscribe(userId, streamId, channel)
   );
 
   if (err != null) {

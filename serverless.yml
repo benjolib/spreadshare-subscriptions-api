@@ -44,6 +44,9 @@ provider:
         - dynamodb:Query
         - dynamodb:Scan
         - dynamodb:GetItem
+        - dynamodb:PutItem
+        - dynamodb:UpdateItem
+        - dynamodb:DeleteItem
       Resource: "arn:aws:dynamodb:${self:provider.region}:*:table/${self:provider.environment.TABLE_NAME}"
     - Effect: Allow
       Action:
@@ -53,37 +56,33 @@ provider:
 functions:
   subscribe:
     handler: src/handlers/subscribe.handler
-    name: ${self:provider.stage}-subscribe
-    description: Subscribe user to a given publication
+    description: Subscribe user to a given stream
     events:
       - http:
           method: post
-          path: /{userId}/subscriptions/{publicationId}
+          path: /{userId}/subscriptions/{streamId}
           cors: true
           private: true
   unsubscribe:
     handler: src/handlers/unsubscribe.handler
-    name: ${self:provider.stage}-unsubscribe
-    description: Unsubscribe user from a given publication channel
+    description: Unsubscribe user from a given stream channel
     events:
       - http:
           method: delete
-          path: /{userId}/subscriptions/{publicationId}/{channel}
+          path: /{userId}/subscriptions/{streamId}/{channel}
           cors: true
           private: true
   getSubscription:
     handler: src/handlers/get.handler
-    name: ${self:provider.stage}-getSubscription
-    description: Fetch a single subscription for user and publicationId given a channel
+    description: Fetch a single subscription for user and streamId given a channel
     events:
       - http:
           method: get
-          path: /{userId}/subscriptions/{publicationId}/{channel}
+          path: /{userId}/subscriptions/{streamId}/{channel}
           cors: true
           private: true
   getAllSubscriptionsForUser:
     handler: src/handlers/getAllForUser.handler
-    name: ${self:provider.stage}-getAllSubscriptionsForUser
     description: Fetch all user subscriptions
     events:
       - http:
@@ -91,14 +90,13 @@ functions:
           path: /{userId}/subscriptions
           cors: true
           private: true
-  getAllSubscriptionsForPublication:
-    handler: src/handlers/getAllForPublication.handler
-    name: ${self:provider.stage}-getAllSubscriptionsForPublication
-    description: Fetch all subscriptions for a publication
+  getAllSubscriptionsForStream:
+    handler: src/handlers/getAllForStream.handler
+    description: Fetch all subscriptions for a stream
     events:
       - http:
           method: get
-          path: /subscriptions/{publicationId}
+          path: /subscriptions/{streamId}
           cors: true
           private: true
 
@@ -123,9 +121,9 @@ resources:
             AttributeType: S
           - AttributeName: channelId
             AttributeType: S
-          - AttributeName: publicationId
+          - AttributeName: streamId
             AttributeType: S
-          - AttributeName: channel
+          - AttributeName: channelFrequency
             AttributeType: S
         KeySchema:
           - AttributeName: userId
@@ -133,22 +131,11 @@ resources:
           - AttributeName: channelId
             KeyType: RANGE
         GlobalSecondaryIndexes: 
-          - IndexName: publication-channel-index
+          - IndexName: channel-frequency-stream-index
             KeySchema:
-              - AttributeName: publicationId
+              - AttributeName: channelFrequency
                 KeyType: HASH
-              - AttributeName: channel
-                KeyType: RANGE
-            Projection: 
-              ProjectionType: ALL
-            ProvisionedThroughput:
-              ReadCapacityUnits: 1
-              WriteCapacityUnits: 1
-          - IndexName: user-channel-index
-            KeySchema:
-              - AttributeName: userId
-                KeyType: HASH
-              - AttributeName: channel
+              - AttributeName: streamId
                 KeyType: RANGE
             Projection: 
               ProjectionType: ALL

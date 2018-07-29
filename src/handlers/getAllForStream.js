@@ -7,12 +7,10 @@ import { controller } from './factory';
 import { errorRes } from '../utils/http';
 
 export const handler: Handler = async event => {
+  const { streamId } = event.pathParameters;
   const channelPref = R.path(['queryStringParameters', 'channel'], event);
   const [err, result]: [Error, Array<Subscription>] = await to(
-    controller.getAllForPublication(
-      event.pathParameters.publicationId,
-      channelPref
-    )
+    controller.getAllForStream(streamId, channelPref)
   );
 
   if (err != null) {

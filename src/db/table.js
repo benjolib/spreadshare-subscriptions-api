@@ -98,19 +98,19 @@ export default class SubscriptionTable {
       .then(res => res.Items);
   }
 
-  getAllForPublication(
-    publicationId: string,
+  getAllForStream(
+    streamId: string,
     channel: ?Channel
   ): Promise<Array<SubscriptionDbModel>> {
-    let condition = 'publicationId = :publicationId';
+    let condition = 'streamId = :streamId';
     let expression = {
-      ':publicationId': publicationId
+      ':streamId': streamId
     };
 
     if (!R.isNil(channel)) {
-      condition = 'publicationId = :publicationId AND channel = :channel';
+      condition = 'streamId = :streamId AND channel = :channel';
       expression = {
-        ':publicationId': publicationId,
+        ':streamId': streamId,
         ':channel': channel
       };
     }
@@ -173,7 +173,7 @@ export default class SubscriptionTable {
 
 const logSaving = (doc: SubscriptionDbModel) => {
   console.log(
-    `doc for user:${doc.userId}, pub:${doc.publicationId} and channel:${
+    `doc for user:${doc.userId}, pub:${doc.streamId} and channel:${
       doc.channel
     } not found, saving new doc`
   );
@@ -181,7 +181,7 @@ const logSaving = (doc: SubscriptionDbModel) => {
 
 const logUpdating = (doc: SubscriptionDbModel) => {
   console.log(
-    `doc for user:${doc.userId}, pub:${doc.publicationId} and channel:${
+    `doc for user:${doc.userId}, pub:${doc.streamId} and channel:${
       doc.channel
     } found, updating`
   );
