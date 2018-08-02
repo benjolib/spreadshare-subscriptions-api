@@ -7,6 +7,7 @@ const mw = () => ({
       // eslint-disable-next-line
       handler.response = {
         body: JSON.stringify({
+          statusCode: handler.error.statusCode,
           errors: [
             {
               status: handler.error.statusCode,
