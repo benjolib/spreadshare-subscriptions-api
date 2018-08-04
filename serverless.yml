@@ -23,14 +23,14 @@ custom:
     seed:
       test:
         sources:
-          - table: subscriptions-dev
+          - table: subscriptions-local
             sources: [./testSeedData/subscriptions.json]
 
 provider:
   name: aws
   profile: ${opt:profile, 'spreadshare'}
   runtime: nodejs8.10
-  stage: ${opt:stage, 'dev'}
+  stage: ${opt:stage, 'local'}
   region: ${opt:region, 'eu-central-1'}
   apiKeys:
     - ${self:provider.stage}-subscriptions-apikey
@@ -108,7 +108,7 @@ resources:
     CreateTable:
       Fn::Equals:
         - ${opt:stage}
-        - dev
+        - local
   Resources:
     SubscriptionsDynamoDbTable:
       Type: 'AWS::DynamoDB::Table'
